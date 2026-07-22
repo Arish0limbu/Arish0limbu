@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:6A11CB&height=220&section=header&text=Hi%20There,%20I'm%20Arish%20Limbu&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Bachelor%20of%20Information%20Technology%20Student%20|%20Full-Stack%20Developer&descAlignY=55&descSize=18" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:6A11CB&height=220&section=header&text=Hi%20There%2C%20Arish%20Limbu&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Bachelor%20of%20Information%20Technology%20Student%20|%20Full-Stack%20Developer&descAlignY=55&descSize=18" alt="header" />
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Web+Developer+from+Nepal+%F0%9F%87%B3%F0%9F%87%B5;Passionate+about+Clean+%26+Efficient+Code;Building+Responsive%2C+Modern+Web+Apps;Always+Learning+New+Technologies;Open+to+Collaboration+%26+Opportunities" alt="Typing SVG" />
@@ -129,12 +129,6 @@ Git & GitHub &nbsp;<img src="https://progress-bar.dev/80/?width=200&color=f05032
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=react-dark&hide_border=true" alt="activity graph" />
 </p>
 
-<!-- 🐍 Contribution Snake Animation
-     Set up via GitHub Actions (see setup note below) to animate your contribution graph -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
-</p>
-
 <details>
 <summary><b>🌐 3D Contribution Graph (click to expand)</b></summary>
 <br>
@@ -197,38 +191,13 @@ SETUP NOTES (delete this comment block once done):
 
 1. Replace every "YOUR_GITHUB_USERNAME" in this file with your actual GitHub username.
 
-2. Profile views counter, stats, streak, activity graph, and trophies work automatically
-   once the username is set — no extra setup needed.
+2. Replace "youremail@example.com" and the "#" links in the Let's Connect section
+   with your real email, LinkedIn, and portfolio URLs.
 
-3. To enable the animated contribution SNAKE graphic:
-   a. In your profile repo (the one named exactly like your username), go to
-      Settings → Actions → General → enable "Read and write permissions".
-   b. Create the file .github/workflows/snake.yml with:
+3. In the Featured Projects section, replace REPO_ONE, REPO_TWO, REPO_THREE, and
+   REPO_FOUR with the exact names of repositories you own (case-sensitive).
 
-      name: Generate Snake
-      on:
-        schedule:
-          - cron: "0 0 * * *"
-        workflow_dispatch:
-        push:
-          branches: [ main ]
-      jobs:
-        generate:
-          runs-on: ubuntu-latest
-          steps:
-            - uses: Platane/snk@v3
-              with:
-                github_user_name: YOUR_GITHUB_USERNAME
-                outputs: |
-                  dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-                  dist/github-contribution-grid-snake.svg
-            - uses: crazy-max/ghaction-github-pages@v4
-              with:
-                target_branch: output
-                build_dir: dist
-              env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-   c. Run the workflow once manually (Actions tab → Generate Snake → Run workflow).
-      It will create an "output" branch with the SVG the README links to.
+4. Everything else — profile views counter, typing animation, trophies, stats cards,
+   streak stats, activity graph, 3D contribution graph, quote widget, and skill
+   icons — works automatically once your username is set. No extra setup required.
 -->
