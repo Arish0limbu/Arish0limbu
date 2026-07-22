@@ -18,6 +18,14 @@
 
 ---
 
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="dev quote" />
+</p>
+
+<img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" width="100%" alt="divider" />
+
+---
+
 ### 🧑‍💻 About Me
 
 I'm a **BIT student from Nepal** with a strong passion for technology, programming, and software development. I enjoy turning ideas into real-world projects by building clean, responsive, and user-friendly websites and applications.
@@ -29,6 +37,10 @@ I believe that **continuous learning and consistent practice** are the keys to b
 - 🎯 Focused on writing clean, maintainable, and efficient code
 - 🤝 Always open to collaboration and new opportunities to learn
 - 📚 My GitHub is a collection of my learning journey — from frontend designs to backend applications and programming exercises
+
+<p align="right">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="320" alt="coding animation" />
+</p>
 
 ---
 
@@ -75,6 +87,22 @@ I believe that **continuous learning and consistent practice** are the keys to b
 <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 
+**📈 Skill Proficiency**
+
+<p align="left">
+JavaScript &nbsp;&nbsp;<img src="https://progress-bar.dev/75/?width=200&color=f7df1e" />
+<br>
+PHP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://progress-bar.dev/70/?width=200&color=777bb4" />
+<br>
+HTML / CSS &nbsp;<img src="https://progress-bar.dev/85/?width=200&color=e34f26" />
+<br>
+C / C++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://progress-bar.dev/65/?width=200&color=00599c" />
+<br>
+MySQL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://progress-bar.dev/70/?width=200&color=4479a1" />
+<br>
+Git & GitHub &nbsp;<img src="https://progress-bar.dev/80/?width=200&color=f05032" />
+</p>
+
 ---
 
 ### 🎯 What I Focus On
@@ -106,6 +134,49 @@ I believe that **continuous learning and consistent practice** are the keys to b
 <p align="center">
   <img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </p>
+
+<details>
+<summary><b>🌐 3D Contribution Graph (click to expand)</b></summary>
+<br>
+<p align="center">
+  <img src="https://github-readme-3d-contrib.vercel.app/api?username=YOUR_GITHUB_USERNAME&theme=github_dark" alt="3D contribution graph" />
+</p>
+</details>
+
+---
+
+### 🔭 Currently Exploring
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Learning-React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Learning-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Exploring-Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Practicing-DSA-3776AB?style=for-the-badge&logo=leetcode&logoColor=white" />
+</p>
+
+---
+
+### 📌 Featured Projects
+
+<p align="center">
+  <a href="https://github.com/YOUR_GITHUB_USERNAME/REPO_ONE">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=REPO_ONE&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/YOUR_GITHUB_USERNAME/REPO_TWO">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=REPO_TWO&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/YOUR_GITHUB_USERNAME/REPO_THREE">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=REPO_THREE&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/YOUR_GITHUB_USERNAME/REPO_FOUR">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=REPO_FOUR&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+
+<p align="center"><i>💡 Tip: Swap REPO_ONE, REPO_TWO, etc. with your real repository names — or better, pin your top repos from your GitHub profile settings and they'll show automatically here.</i></p>
 
 ---
 
