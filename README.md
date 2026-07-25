@@ -4,17 +4,14 @@
 
 <div align="center">
 
-<!-- ================= ANIMATED HEADER BANNER ================= -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=Hi%20There,%20I'm%20Arish%20Limbu&fontSize=42&fontColor=00f0ff&animation=twinkling&fontAlignY=38&desc=Software%20Developer%20%7C%20Full-Stack%20Explorer&descAlignY=58&descSize=18&descColor=b967ff" width="100%"/>
-
-<!-- ================= MATRIX / BINARY RAIN BACKGROUND ================= -->
+<!-- ================= ANIMATED HEADER BANNER (title over binary rain) ================= -->
 <!-- ⚠️ SETUP REQUIRED: this is a custom SVG (not hosted by a third-party service),
      so GitHub can't render it until it lives in YOUR repo.
-     1. Download matrix-rain.svg
+     1. Download header-matrix.svg
      2. Go to your Arish0limbu/Arish0limbu repo on GitHub → "Add file" → "Upload files"
-     3. Drop matrix-rain.svg into the repo root and commit
+     3. Drop header-matrix.svg into the repo root and commit
      4. If your default branch is "master" instead of "main", change /main/ to /master/ below -->
-<img src="https://raw.githubusercontent.com/Arish0limbu/Arish0limbu/main/matrix-rain.svg" width="700"/>
+<img src="https://raw.githubusercontent.com/Arish0limbu/Arish0limbu/main/header-matrix.svg" width="100%"/>
 
 <a href="#">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&repeat=true&width=700&height=50&lines=Hello+World%2C+I'm+Arish+Limbu;BIT+Student+%40+Kasturi+College;Future+Software+Developer+%26+AI+Engineer;Always+Learning%2C+Always+Building" alt="Typing SVG" />
