@@ -1,4 +1,4 @@
-<!-- ⚠️ Replace every instance of `arish-limbu` below with your actual GitHub username,
+<!-- ⚠️ Replace every instance of `Arish0limbu` below with your actual GitHub username,
      and swap the placeholder social links (LinkedIn / Facebook / Instagram / Gmail)
      with your real profile URLs / address before publishing. -->
 
@@ -26,7 +26,7 @@
 <table align="center">
 <tr>
 <td width="30%" align="center">
-<img src="https://github.com/arish-limbu.png" width="200" style="border-radius:50%;border:3px solid #00f0ff;"/>
+<img src="https://github.com/Arish0limbu.png" width="200" style="border-radius:50%;border:3px solid #00f0ff;"/>
 </td>
 <td width="70%">
 
@@ -78,11 +78,11 @@ current_status: "Building. Breaking. Learning. Repeat."
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Arish0limbu&show_icons=true&theme=dracula&hide_border=true&bg_color=0d1117&title_color=00f0ff&icon_color=b967ff&text_color=c9d1d9&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arish-limbu&layout=compact&theme=dracula&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arish0limbu&layout=compact&theme=dracula&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=arish-limbu&theme=dracula&hide_border=true&background=0d1117&stroke=00f0ff&ring=b967ff&fire=00f0ff&currStreakLabel=00f0ff"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Arish0limbu&theme=dracula&hide_border=true&background=0d1117&stroke=00f0ff&ring=b967ff&fire=00f0ff&currStreakLabel=00f0ff"/>
 
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=arish-limbu&theme=dracula&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9"/>
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=Arish0limbu&theme=dracula&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9"/>
 
 </div>
 
@@ -92,7 +92,7 @@ current_status: "Building. Breaking. Learning. Repeat."
 ## 📈 Contribution Activity Graph
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=arish-limbu&theme=react-dark&bg_color=0d1117&color=00f0ff&line=b967ff&point=ffffff&hide_border=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Arish0limbu&theme=react-dark&bg_color=0d1117&color=00f0ff&line=b967ff&point=ffffff&hide_border=true"/>
 </div>
 
 <!-- ================= SNAKE ANIMATION ================= -->
@@ -101,9 +101,9 @@ current_status: "Building. Breaking. Learning. Repeat."
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arish-limbu/arish-limbu/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arish-limbu/arish-limbu/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/arish-limbu/arish-limbu/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arish0limbu/Arish0limbu/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arish0limbu/Arish0limbu/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Arish0limbu/Arish0limbu/output/github-contribution-grid-snake.svg" />
 </picture>
 
 <!-- Generated automatically via the "snk" GitHub Action.
@@ -117,15 +117,15 @@ current_status: "Building. Breaking. Learning. Repeat."
 ## 🏆 Trophy Room
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=arish-limbu&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=2&column=4"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Arish0limbu&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=2&column=4"/>
 </div>
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=arish-limbu&color=00f0ff&style=for-the-badge&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/arish-limbu?style=for-the-badge&color=b967ff&labelColor=0d1117)
-![Stars](https://img.shields.io/github/stars/arish-limbu?style=for-the-badge&color=00f0ff&labelColor=0d1117)
-![Repos](https://img.shields.io/badge/dynamic/json?color=b967ff&label=Repositories&style=for-the-badge&labelColor=0d1117&query=public_repos&url=https://api.github.com/users/arish-limbu)
+![Profile Views](https://komarev.com/ghpvc/?username=Arish0limbu&color=00f0ff&style=for-the-badge&label=PROFILE+VIEWS)
+![Followers](https://img.shields.io/github/followers/Arish0limbu?style=for-the-badge&color=b967ff&labelColor=0d1117)
+![Stars](https://img.shields.io/github/stars/Arish0limbu?style=for-the-badge&color=00f0ff&labelColor=0d1117)
+![Repos](https://img.shields.io/badge/dynamic/json?color=b967ff&label=Repositories&style=for-the-badge&labelColor=0d1117&query=public_repos&url=https://api.github.com/users/Arish0limbu)
 
 </div>
 
@@ -143,7 +143,7 @@ current_status: "Building. Breaking. Learning. Repeat."
 
 `HTML5` `CSS3` `JavaScript` `PHP` `MySQL`
 
-[![Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=00f0ff)](https://github.com/arish-limbu)
+[![Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=00f0ff)](https://github.com/Arish0limbu)
 [![Demo](https://img.shields.io/badge/Live%20Demo-00f0ff?style=for-the-badge&logo=vercel&logoColor=0d1117)](#)
 
 </td>
@@ -154,7 +154,7 @@ current_status: "Building. Breaking. Learning. Repeat."
 
 `C` `File Handling` `DSA`
 
-[![Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=00f0ff)](https://github.com/arish-limbu)
+[![Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=00f0ff)](https://github.com/Arish0limbu)
 [![Demo](https://img.shields.io/badge/Live%20Demo-b967ff?style=for-the-badge&logo=vercel&logoColor=0d1117)](#)
 
 </td>
@@ -167,7 +167,7 @@ current_status: "Building. Breaking. Learning. Repeat."
 
 `HTML5` `CSS3` `JavaScript`
 
-[![Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=00f0ff)](https://github.com/arish-limbu)
+[![Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=00f0ff)](https://github.com/Arish0limbu)
 [![Demo](https://img.shields.io/badge/Live%20Demo-00f0ff?style=for-the-badge&logo=vercel&logoColor=0d1117)](#)
 
 </td>
@@ -178,7 +178,7 @@ current_status: "Building. Breaking. Learning. Repeat."
 
 `HTML5` `CSS3` `PHP` `MySQL`
 
-[![Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=00f0ff)](https://github.com/arish-limbu)
+[![Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=00f0ff)](https://github.com/Arish0limbu)
 [![Demo](https://img.shields.io/badge/Live%20Demo-b967ff?style=for-the-badge&logo=vercel&logoColor=0d1117)](#)
 
 </td>
@@ -240,7 +240,7 @@ current_status: "Building. Breaking. Learning. Repeat."
 
 <div align="center">
 
-<a href="https://github.com/arish-limbu" target="_blank">
+<a href="https://github.com/Arish0limbu" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=00f0ff&labelColor=0d1117"/>
 </a>
 <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
