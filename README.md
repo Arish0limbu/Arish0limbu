@@ -77,7 +77,7 @@ current_status: "Building. Breaking. Learning. Repeat."
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=arish-limbu&show_icons=true&theme=dracula&hide_border=true&bg_color=0d1117&title_color=00f0ff&icon_color=b967ff&text_color=c9d1d9&count_private=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Arish0limbu&show_icons=true&theme=dracula&hide_border=true&bg_color=0d1117&title_color=00f0ff&icon_color=b967ff&text_color=c9d1d9&count_private=true"/>
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arish-limbu&layout=compact&theme=dracula&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=arish-limbu&theme=dracula&hide_border=true&background=0d1117&stroke=00f0ff&ring=b967ff&fire=00f0ff&currStreakLabel=00f0ff"/>
