@@ -8,7 +8,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=Hi%20There,%20I'm%20Arish%20Limbu&fontSize=42&fontColor=00f0ff&animation=twinkling&fontAlignY=38&desc=Software%20Developer%20%7C%20AI%2FML%20Enthusiast%20%7C%20Full-Stack%20Explorer&descAlignY=58&descSize=18&descColor=b967ff" width="100%"/>
 
 <!-- ================= WAVING HAND + TYPING TEXT ================= -->
-<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="35"/>
+<img src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" width="120"/>
 
 <a href="#">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&repeat=true&width=700&height=50&lines=Hello+World%2C+I'm+Arish+Limbu+%F0%9F%91%8B;BIT+Student+%40+Kasturi+College;Future+Software+Developer+%26+AI+Engineer;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
