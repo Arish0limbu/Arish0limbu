@@ -23,7 +23,7 @@
                      GitHub: github.com/arishlimbu
 
 GitHub Stats
-Repos: XX (Contributed: XX)     Stars: XX
+Repos: 00 (Contributed: XX)     Stars: XX
 Commits: XX                     Followers: XX
 Lines of Code on GitHub: XXX,XXX
 ```
