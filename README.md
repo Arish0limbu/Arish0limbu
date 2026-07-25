@@ -11,7 +11,7 @@
 <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="35"/>
 
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=90&lines=Hello+World%2C+I'm+Arish+Limbu+%F0%9F%91%8B;BIT+Student+%40+Kasturi+College;Future+Software+Developer+%26+AI+Engineer;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&repeat=true&width=700&height=50&lines=Hello+World%2C+I'm+Arish+Limbu+%F0%9F%91%8B;BIT+Student+%40+Kasturi+College;Future+Software+Developer+%26+AI+Engineer;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&width=100%"/>
