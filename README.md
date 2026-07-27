@@ -17,31 +17,9 @@
 <!-- ================= ABOUT ME ================= -->
 ## 👤 About Me
 
-<table align="center">
-<tr>
-<td width="30%" align="center">
-<img src="https://github.com/Arish0limbu.png" width="200" style="border-radius:50%;border:3px solid #00f0ff;"/>
-</td>
-<td width="70%">
-
-```yaml
-name: "Arish Limbu"
-role: "BIT Student @ Kasturi College (Purvanchal University, Nepal)"
-focus: ["Software Development", "Web Technologies", "AI / ML"]
-quote: "Code is the closest thing we have to magic — I'm here to cast spells."
-current_status: "Building. Breaking. Learning. Repeat."
-```
-
-**🔭 Interests:** Full-Stack Web Development • Artificial Intelligence & Machine Learning • Open Source • Cloud & Containers
-**🌱 Currently Learning:** Full-Stack Web Dev · AI/ML · Advanced Python · Docker
-**🎯 Goals:** Become a skilled Software Developer & AI Engineer, ship impactful projects, and contribute to open source.
-**⚡ Fun Fact:** I debug faster with lo-fi beats and way too much coffee ☕
-
-</td>
-</tr>
-</table>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,13,20&height=3&width=100%"/>
+<p align="center">
+  <img src="dark.svg" alt="GitHub Profile" width="100%">
+</p>
 
 <!-- ================= TECH STACK ================= -->
 ## 🛠 Tech Stack
