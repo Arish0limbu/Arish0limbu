@@ -1,6 +1,3 @@
-<!-- ⚠️ Replace every instance of `Arish0limbu` below with your actual GitHub username,
-     and swap the placeholder social links (LinkedIn / Facebook / Instagram / Gmail)
-     with your real profile URLs / address before publishing. -->
 
 <div align="center">
 
