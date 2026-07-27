@@ -261,7 +261,7 @@ current_status: "Building. Breaking. Learning. Repeat."
 
 ### 💬 "Talk is cheap. Show me the code." — Linus Torvalds
 
-Thanks for stopping by — feel free to explore my repositories and connect! ⚡
+Thanks for stopping by — feel free to explore my repositories and connect ⚡
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=150&section=footer"/>
 
