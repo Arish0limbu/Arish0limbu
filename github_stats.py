@@ -64,5 +64,5 @@ def update_svg(svg):
     tree.write(svg,encoding="utf-8",xml_declaration=True)
 
 if __name__=="__main__":
-    update_svg("dark_mode.svg")
+    update_svg("dark.svg")
     print("SVG updated for",USER_NAME)
