@@ -4,6 +4,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 */12 * * *"
+  push:
+    branches: [main]
 
 permissions:
   contents: write
@@ -15,6 +17,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -26,13 +30,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests lxml
 
+      - name: Configure git for cloning
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Run GitHub Stats Script
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          # Optional: comma-separated list of extra commit-author emails
+          # (e.g. a work email) to include in the lines-of-code count.
+          EXTRA_EMAILS: ${{ vars.EXTRA_EMAILS }}
         run: python github_stats.py
 
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update GitHub Stats"
-          file_pattern: "*.svg"
+          file_pattern: "*.svg stats_cache.json"
