@@ -80,8 +80,7 @@ def get_profile():
 
         repositories(
           first:100,
-          ownerAffiliations:[OWNER],
-          isFork:$includeForks
+          ownerAffiliations:[OWNER]
         ){
           totalCount
           nodes{
@@ -109,7 +108,7 @@ def get_profile():
 
     return github_query(
         query,
-        {"login": USERNAME, "includeForks": True},
+        {"login": USERNAME},
     )["user"]
 
 
