@@ -41,7 +41,7 @@ jobs:
           # Optional: comma-separated list of extra commit-author emails
           # (e.g. a work email) to include in the lines-of-code count.
           EXTRA_EMAILS: ${{ vars.EXTRA_EMAILS }}
-        run: python github_stats.py
+        run: python status.py
 
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
