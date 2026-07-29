@@ -315,8 +315,18 @@ def fmt(n):
     return f"{n:,}"
 
 
-def make_dots(label_length, value_str):
-    dots = 40 - label_length - len(value_str)
+def make_dots(label_with_colon, value_str, block_width):
+    """Pad with dots so that `label + dots + value` always adds up to
+    exactly `block_width` characters.
+
+    The SVG uses a monospace font, so this keeps whatever comes after
+    the value (e.g. "| Stars:", "| Followers:") pinned to a fixed
+    column no matter how many digits the value has -- instead of the
+    old approach, which used a single global width (40) and compared
+    against label words ("Repositories") that didn't match what's
+    actually printed in the SVG ("Repos:"), so it drifted every run.
+    """
+    dots = block_width - len(label_with_colon) - len(value_str)
     if dots < 1:
         dots = 1
     return "." * dots
@@ -335,16 +345,20 @@ def update_svg(svg_file, stats):
     replace(root, "loc_add", fmt(stats["loc_add"]))
     replace(root, "loc_del", fmt(stats["loc_del"]))
 
+    # Block widths are the fixed total character count (label + dots +
+    # value) that each field occupies in dark.svg, so text after it
+    # ("| Stars:", "| Followers:", etc.) always lines up. These were
+    # measured directly from the current dark.svg layout.
     replace(root, "repo_data_dots",
-            make_dots(len("Repositories"), fmt(stats["repos"])))
+            make_dots("Repos:", fmt(stats["repos"]), 19))
     replace(root, "star_data_dots",
-            make_dots(len("Stars"), fmt(stats["stars"])))
+            make_dots("Stars:", fmt(stats["stars"]), 19))
     replace(root, "follower_data_dots",
-            make_dots(len("Followers"), fmt(stats["followers"])))
+            make_dots("Followers:", fmt(stats["followers"]), 19))
     replace(root, "commit_data_dots",
-            make_dots(len("Commmits"), fmt(stats["commits"])))
+            make_dots("Commmits:", fmt(stats["commits"]), 36))
     replace(root, "loc_data_dots",
-            make_dots(len("Lines of Code on GitHub"), fmt(stats["loc_add"] + stats["loc_del"])))
+            make_dots("Lines of Code on GitHub:", fmt(stats["loc_add"] + stats["loc_del"]), 36))
 
     tree.write(svg_file, encoding="utf-8", xml_declaration=True)
 
