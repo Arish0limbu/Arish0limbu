@@ -4,9 +4,9 @@
 <!-- ================= ANIMATED HEADER BANNER ================= -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=Hi%20There,%20I'm%20Arish%20Limbu&fontSize=42&fontColor=00f0ff&animation=twinkling&fontAlignY=38&desc=Software%20Developer%20%7C%20Full-Stack%20Explorer&descAlignY=58&descSize=18&descColor=b967ff" width="100%"/>
 
-<a href="#">
- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&repeat=true&width=700&height=50&lines=Meet+the+Developer;Crafting+Code+with+Creativity" alt="Typing SVG" />
-</a>
+<p align="center">
+  <img src="assets/head.svg" alt="GitHub Profile" width="100%">
+</p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&width=100%"/>
 

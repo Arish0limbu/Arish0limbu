@@ -1,0 +1,33 @@
+<svg width="900" height="60" viewBox="0 0 900 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&amp;display=swap');
+      .code-line {
+        font-family: 'Orbitron', 'Courier New', monospace;
+        font-weight: 700;
+        font-size: 26px;
+        dominant-baseline: middle;
+      }
+      .kw   { fill: #569CD6; }  /* keyword: console, print, const, run */
+      .fn   { fill: #DCDCAA; }  /* function/property: log */
+      .pn   { fill: #D4D4D4; }  /* punctuation: ( ) . = ; */
+      .str  { fill: #CE9178; }  /* string literal */
+      .var  { fill: #9CDCFE; }  /* variable name: dev */
+    </style>
+
+    <clipPath id="clip1"><rect x="0" y="0" width="0" height="60"><animate attributeName="width" values="0;640;640;640;0;0;0;0" keyTimes="0;0.10;0.16;0.20;0.24;0.25;0.99;1" dur="13s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip2"><rect x="0" y="0" width="0" height="60"><animate attributeName="width" values="0;0;0;0;620;620;620;0;0" keyTimes="0;0.24;0.25;0.31;0.37;0.41;0.49;0.50;1" dur="13s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip3"><rect x="0" y="0" width="0" height="60"><animate attributeName="width" values="0;0;0;0;0;0;560;560;560;0;0" keyTimes="0;0.49;0.50;0.56;0.62;0.66;0.68;0.72;0.74;0.75;1" dur="13s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip4"><rect x="0" y="0" width="0" height="60"><animate attributeName="width" values="0;0;0;780;780;0;0;0" keyTimes="0;0.74;0.75;0.81;0.87;0.91;0.99;1" dur="13s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <g class="code-line" text-anchor="start">
+    <text x="30" y="32" clip-path="url(#clip1)"><tspan class="kw">console</tspan><tspan class="pn">.</tspan><tspan class="fn">log</tspan><tspan class="pn">(</tspan><tspan class="str">"SYSTEM ONLINE"</tspan><tspan class="pn">);</tspan></text>
+
+    <text x="30" y="32" clip-path="url(#clip2)"><tspan class="kw">print</tspan><tspan class="pn">(</tspan><tspan class="str">"MEET THE DEVELOPER"</tspan><tspan class="pn">);</tspan></text>
+
+    <text x="30" y="32" clip-path="url(#clip3)"><tspan class="kw">const</tspan><tspan class="pn"> </tspan><tspan class="var">dev</tspan><tspan class="pn"> = </tspan><tspan class="str">"ARISH LIMBU"</tspan><tspan class="pn">;</tspan></text>
+
+    <text x="30" y="32" clip-path="url(#clip4)"><tspan class="kw">run</tspan><tspan class="pn">(</tspan><tspan class="str">"CODE. CREATE. INNOVATE."</tspan><tspan class="pn">);</tspan></text>
+  </g>
+</svg>
