@@ -13,8 +13,6 @@
 <br/>
 
 <!-- ================= ABOUT ME ================= -->
-## 👤 About Me
-
 <p align="center">
   <img src="assets/dark.svg" alt="GitHub Profile" width="100%">
 </p>
