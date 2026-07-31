@@ -368,7 +368,7 @@ def update_svg(svg_file, stats):
 # --------------------------------------------------------------------------
 
 def main():
-    svg_file = "dark.svg"
+    svg_file = "assets/dark.svg"
     if not os.path.exists(svg_file):
         raise FileNotFoundError(f"{svg_file} not found.")
 
