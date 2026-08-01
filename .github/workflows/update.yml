@@ -49,6 +49,11 @@ jobs:
           EXTRA_EMAILS: ${{ vars.EXTRA_EMAILS }}
         run: python stats2.py
 
+      - name: Run contribution_shooter.py
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: python contribution_shooter.py
+
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
