@@ -1,0 +1,24 @@
+<svg viewBox="0 0 76 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="igGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#feda75"/>
+      <stop offset="30%" stop-color="#fa7e1e"/>
+      <stop offset="60%" stop-color="#d62976"/>
+      <stop offset="100%" stop-color="#962fbf"/>
+    </linearGradient>
+    <style>
+      <![CDATA[
+      .box { fill:#0d1210; stroke:#d62976; stroke-opacity:0.5; stroke-width:1.2; animation: pulse 4s ease-in-out infinite; }
+      @keyframes pulse { 0%,100%{stroke-opacity:0.4;} 50%{stroke-opacity:0.75;} }
+      .grp { opacity:0; animation: comeIn 0.5s ease-out forwards; }
+      @keyframes comeIn { 0%{opacity:0; transform:translateY(8px);} 100%{opacity:1; transform:translateY(0);} }
+      ]]>
+    </style>
+  </defs>
+  <g class="grp">
+    <rect class="box" x="10" y="17" width="56" height="56" rx="12"/>
+    <svg x="24" y="31" width="28" height="28" viewBox="0 0 24 24">
+      <path fill="url(#igGrad)" d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.97.24 2.43.4a4.9 4.9 0 0 1 1.77 1.15 4.9 4.9 0 0 1 1.15 1.77c.16.46.35 1.26.4 2.43.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.24 1.97-.4 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.46.16-1.26.35-2.43.4-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.97-.24-2.43-.4a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.16-.46-.35-1.26-.4-2.43C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.24-1.97.4-2.43a4.9 4.9 0 0 1 1.15-1.77A4.9 4.9 0 0 1 5.55 1.8c.46-.16 1.26-.35 2.43-.4C9.25.34 9.63.33 12 .33zM12 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zm0 10.16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-10.4a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/>
+    </svg>
+  </g>
+</svg>
