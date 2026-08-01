@@ -66,7 +66,7 @@
       <text id="repo_data" x="132" y="88" class="value">4</text>
 
       <text x="150" y="88" class="label">| Stars:</text>
-      <text id="star_data_dots" x="205" y="88" class="dots">............</text>
+      <text id="star_data_dots" x="205" y="88" class="dots">...................</text>
       <text id="star_data" x="271" y="88" class="value">2</text>
     </g>
 
@@ -81,16 +81,16 @@
 
     <g class="line l3">
       <text x="20" y="140" class="label">Commmits:</text>
-      <text id="commit_data_dots" x="98" y="140" class="dots">.........................</text>
-      <text id="commit_data" x="325" y="140" class="value">95</text>
+      <text id="commit_data_dots" x="98" y="140" class="dots">......................</text>
+      <text id="commit_data" x="325" y="140" class="value">97</text>
     </g>
 
     <g class="line l4">
       <text x="20" y="166" class="label">Lines of Code on GitHub:</text>
-      <text id="loc_data_dots" x="212" y="166" class="dots">......</text>
-      <text id="loc_data" x="440" y="166" class="value">13,097</text>
-      <text x="20" y="184" class="diffAdd">+<tspan id="loc_add">9,658</tspan></text>
-      <text x="90" y="184" class="diffDel">-<tspan id="loc_del">3,439</tspan></text>
+      <text id="loc_data_dots" x="212" y="166" class="dots">.................</text>
+      <text id="loc_data" x="440" y="166" class="value">13,163</text>
+      <text x="20" y="184" class="diffAdd">+<tspan id="loc_add">9,705</tspan></text>
+      <text x="90" y="184" class="diffDel">-<tspan id="loc_del">3,458</tspan></text>
     </g>
 
     <!-- blinking terminal cursor -->
