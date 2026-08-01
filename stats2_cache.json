@@ -1,10 +1,4 @@
 {
-  "Arish0limbu/My-portfilo": {
-    "last_sha": "813112b2286a4d0e4bf13d6ee8f5b0dfc7c4a541",
-    "additions": 631,
-    "deletions": 104,
-    "commits": 4
-  },
   "Arish0limbu/link": {
     "last_sha": "1249c124bf6b6a3fa57f0d2d45404a3f9a0f905d",
     "additions": 5161,
@@ -22,12 +16,6 @@
     "additions": 2593,
     "deletions": 1029,
     "commits": 85
-  },
-  "Arish0limbu/pose": {
-    "last_sha": null,
-    "additions": 0,
-    "deletions": 0,
-    "commits": 0
   },
   "_totals": {
     "additions": 9658,
