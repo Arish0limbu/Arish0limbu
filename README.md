@@ -1,13 +1,14 @@
 
 <div align="center">
-
+ <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 <!-- ================= ANIMATED HEADER BANNER ================= -->
 <p align="center">
   <img src="assets/head.svg" alt="GitHub Profile" width="100%">
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&width=100%"/>
-
+<p align="center">
+  <img src="assets/line.svg" alt="GitHub Profile" width="100%">
+</p>
 </div>
 
 <br/>
