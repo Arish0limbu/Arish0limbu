@@ -54,6 +54,11 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: python contribution_shooter.py
 
+      - name: Run achievement.py
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: python achievement.py
+
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

@@ -68,126 +68,14 @@
  <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 
 <!-- ================= TROPHIES ================= -->
-## 🏆 Trophy Room
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=1800&pause=700&color=00FF41,00FFFF,FF00FF,FFD700,FF0000&center=false&vCenter=true&width=700&lines=%3E+ACCESSING+GITHUB+NODE...;%3E+DECRYPTING+ACHIEVEMENT+DATA;%3E+VALIDATING+TROPHIES;%3E+TROPHY+ROOM+ONLINE" />
 
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Arish0limbu&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=2&column=4"/>
-</div>
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=Arish0limbu&color=00f0ff&style=for-the-badge&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/Arish0limbu?style=for-the-badge&color=b967ff&labelColor=0d1117)
-![Stars](https://img.shields.io/github/stars/Arish0limbu?style=for-the-badge&color=00f0ff&labelColor=0d1117)
-![Repos](https://img.shields.io/badge/dynamic/json?color=b967ff&label=Repositories&style=for-the-badge&labelColor=0d1117&query=public_repos&url=https://api.github.com/users/Arish0limbu)
-
-</div>
-
+<img src="assets/achievement_demo.svg" alt="GitHub Profile" width="100%">
+<img src="assets/line.svg" alt="GitHub Profile" width="100%">
+<img src="assets/line.svg" alt="GitHub Profile" width="100%">
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,13,20&height=3&width=100%"/>
 
-<!-- ================= FEATURED PROJECTS ================= -->
-## 🚀 Featured Projects
 
-<table align="center">
-<tr>
-<td width="50%">
-
-### 🗓 Full-Stack Calendar Web App
-> A full-stack calendar and scheduling application built for real-world event management.
-
-`HTML5` `CSS3` `JavaScript` `PHP` `MySQL`
-
-[![Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=00f0ff)](https://github.com/Arish0limbu)
-[![Demo](https://img.shields.io/badge/Live%20Demo-00f0ff?style=for-the-badge&logo=vercel&logoColor=0d1117)](#)
-
-</td>
-<td width="50%">
-
-### 📊 Result Management System
-> A C-based system for managing and calculating student academic results efficiently.
-
-`C` `File Handling` `DSA`
-
-[![Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=00f0ff)](https://github.com/Arish0limbu)
-[![Demo](https://img.shields.io/badge/Live%20Demo-b967ff?style=for-the-badge&logo=vercel&logoColor=0d1117)](#)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 💼 Personal Portfolio Website
-> A responsive personal portfolio showcasing my projects, skills, and journey.
-
-`HTML5` `CSS3` `JavaScript`
-
-[![Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=00f0ff)](https://github.com/Arish0limbu)
-[![Demo](https://img.shields.io/badge/Live%20Demo-00f0ff?style=for-the-badge&logo=vercel&logoColor=0d1117)](#)
-
-</td>
-<td width="50%">
-
-### 🌸 Ribora Bloomery — Business Website
-> A business website built for Ribora Bloomery to showcase products and services online.
-
-`HTML5` `CSS3` `PHP` `MySQL`
-
-[![Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=00f0ff)](https://github.com/Arish0limbu)
-[![Demo](https://img.shields.io/badge/Live%20Demo-b967ff?style=for-the-badge&logo=vercel&logoColor=0d1117)](#)
-
-</td>
-</tr>
-</table>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&width=100%"/>
-
-<!-- ================= LEARNING PROGRESS ================= -->
-## 🎯 Learning Progress
-
-<table align="center">
-<tr><td>
-
-**Full-Stack Web Development**
-![](https://progress-bar.xyz/80/?title=Progress&width=400&color=00f0ff&suffix=%25)
-
-**Artificial Intelligence / Machine Learning**
-![](https://progress-bar.xyz/45/?title=Progress&width=400&color=b967ff&suffix=%25)
-
-**Advanced Python**
-![](https://progress-bar.xyz/65/?title=Progress&width=400&color=00f0ff&suffix=%25)
-
-**Docker & Cloud Technologies**
-![](https://progress-bar.xyz/40/?title=Progress&width=400&color=b967ff&suffix=%25)
-
-</td></tr>
-</table>
-
-<div align="center">
-
-**🗺 Current Roadmap:** Frontend Mastery → Backend & APIs → Databases → AI/ML Fundamentals → Deployment & DevOps
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,13,20&height=3&width=100%"/>
-
-<!-- ================= WIDGETS ================= -->
-## 🎵 Widgets
-
-<div align="center">
-
-<img src="https://readme-jokes.vercel.app/api" width="450"/>
-
-<br/><br/>
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" width="450"/>
-
-<!-- Optional Spotify widget — replace UID with your own from https://spotify-github-profile.vercel.app -->
-<br/><br/>
-<img src="https://spotify-github-profile.vercel.app/api/view.svg?uid=YOUR_SPOTIFY_UID&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00f0ff&bar_color_cover=false" width="450"/>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&width=100%"/>
 
 <!-- ================= CONNECT WITH ME ================= -->
 ## 🌐 Connect With Me
