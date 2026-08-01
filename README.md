@@ -1,23 +1,11 @@
-
+<!-- ================= ANIMATED HEADER BANNER ================= -->
 <div align="center">
  <img src="assets/line.svg" alt="GitHub Profile" width="100%">
-<!-- ================= ANIMATED HEADER BANNER ================= -->
-<p align="center">
   <img src="assets/head.svg" alt="GitHub Profile" width="100%">
-</p>
-
-<p align="center">
   <img src="assets/line.svg" alt="GitHub Profile" width="100%">
-</p>
 </div>
-
-<br/>
-
 <!-- ================= ABOUT ME ================= -->
-<p align="center">
   <img src="assets/dark.svg" alt="GitHub Profile" width="100%">
-</p>
-
 <!-- ================= TECH STACK ================= -->
 ## 🛠 Tech Stack
 
