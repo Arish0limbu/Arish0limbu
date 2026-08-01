@@ -12,24 +12,31 @@
   <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 <!-- ================= TECH STACK ================= -->
  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=1800&pause=700&color=00FF41,00FFFF,FF00FF,FFD700,FF0000&center=false&vCenter=true&width=700&lines=%3E+INITIALIZING...;%3E+LOADING+TECH+STACK;%3E+MODULES+ONLINE;%3E+TECH+ARSENAL+READY" />
- 
-<div align="center">
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=00f0ff&labelColor=0d1117)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=00f0ff&labelColor=0d1117)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=00f0ff&labelColor=0d1117)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=00f0ff&labelColor=0d1117)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=00f0ff&labelColor=0d1117)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=00f0ff&labelColor=0d1117)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=00f0ff&labelColor=0d1117)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=00f0ff&labelColor=0d1117)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=00f0ff&labelColor=0d1117)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=b967ff&labelColor=0d1117)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=00f0ff&labelColor=0d1117)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=b967ff&labelColor=0d1117)
-![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=00f0ff&labelColor=0d1117)
+### 🌐 Frontend
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" height="40" />
+</p>
 
-</div>
+### 🖥️ Backend
+<p>
+  <img src="https://skillicons.dev/icons?i=php,python,firebase&theme=dark" height="40" />
+</p>
+
+### 🗄️ Database
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql&theme=dark" height="40" />
+</p>
+
+### 💻 Programming Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=c,cpp,python&theme=dark" height="40" />
+</p>
+
+### ⚙️ Tools & Technologies
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode&theme=dark" height="40" />
+</p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&width=100%"/>
 
