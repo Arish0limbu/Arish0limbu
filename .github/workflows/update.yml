@@ -43,8 +43,14 @@ jobs:
           EXTRA_EMAILS: ${{ vars.EXTRA_EMAILS }}
         run: python status.py
 
+      - name: Run stats2.py (stats.svg only)
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          EXTRA_EMAILS: ${{ vars.EXTRA_EMAILS }}
+        run: python stats2.py
+
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update GitHub Stats"
-          file_pattern: "*.svg stats_cache.json"
+          file_pattern: "*.svg stats_cache.json stats2_cache.json"
