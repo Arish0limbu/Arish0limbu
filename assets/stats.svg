@@ -1,4 +1,5 @@
-<svg width="500" height="215" viewBox="0 0 500 215" xmlns="http://www.w3.org/2000/svg">
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="215" viewBox="0 0 500 215">
   <defs>
     <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#39d9c4" stop-opacity="0"/>
@@ -41,10 +42,8 @@
 
   <g clip-path="url(#cardClip)">
     <!-- ambient commit-pulse line, drawn once then looping drift -->
-    <path d="M -50 178 L 20 178 L 40 150 L 60 195 L 80 178 L 140 178 L 160 160 L 180 178 L 260 178 L 280 140 L 300 200 L 320 178 L 500 178"
-          fill="none" stroke="url(#pulseGrad)" stroke-width="2">
-      <animateTransform attributeName="transform" type="translate"
-                         values="0 0; -220 0; 0 0" dur="9s" repeatCount="indefinite"/>
+    <path d="M -50 178 L 20 178 L 40 150 L 60 195 L 80 178 L 140 178 L 160 160 L 180 178 L 260 178 L 280 140 L 300 200 L 320 178 L 500 178" fill="none" stroke="url(#pulseGrad)" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -220 0; 0 0" dur="9s" repeatCount="indefinite"/>
     </path>
 
     <!-- title bar -->
@@ -63,35 +62,35 @@
     <!-- stat lines -->
     <g class="line l1">
       <text x="20" y="88" class="label">Repos:</text>
-      <text id="repo_data_dots" x="66" y="88" class="dots">.......</text>
-      <text id="repo_data" x="132" y="88" class="value">0</text>
+      <text id="repo_data_dots" x="66" y="88" class="dots">............</text>
+      <text id="repo_data" x="132" y="88" class="value">4</text>
 
       <text x="150" y="88" class="label">| Stars:</text>
-      <text id="star_data_dots" x="205" y="88" class="dots">.......</text>
-      <text id="star_data" x="271" y="88" class="value">0</text>
+      <text id="star_data_dots" x="205" y="88" class="dots">............</text>
+      <text id="star_data" x="271" y="88" class="value">2</text>
     </g>
 
     <g class="line l2">
       <text x="20" y="112" class="label">Followers:</text>
-      <text id="follower_data_dots" x="90" y="112" class="dots">.......</text>
-      <text id="follower_data" x="156" y="112" class="value">0</text>
+      <text id="follower_data_dots" x="90" y="112" class="dots">........</text>
+      <text id="follower_data" x="156" y="112" class="value">1</text>
 
       <text x="174" y="112" class="label">| Contributed to:</text>
-      <text id="contrib_data" x="316" y="112" class="value">0</text>
+      <text id="contrib_data" x="316" y="112" class="value">4</text>
     </g>
 
     <g class="line l3">
       <text x="20" y="140" class="label">Commmits:</text>
-      <text id="commit_data_dots" x="98" y="140" class="dots">....................................</text>
-      <text id="commit_data" x="325" y="140" class="value">0</text>
+      <text id="commit_data_dots" x="98" y="140" class="dots">.........................</text>
+      <text id="commit_data" x="325" y="140" class="value">92</text>
     </g>
 
     <g class="line l4">
       <text x="20" y="166" class="label">Lines of Code on GitHub:</text>
-      <text id="loc_data_dots" x="212" y="166" class="dots">....................................</text>
-      <text id="loc_data" x="440" y="166" class="value">0</text>
-      <text x="20" y="184" class="diffAdd">+<tspan id="loc_add">0</tspan></text>
-      <text x="90" y="184" class="diffDel">-<tspan id="loc_del">0</tspan></text>
+      <text id="loc_data_dots" x="212" y="166" class="dots">......</text>
+      <text id="loc_data" x="440" y="166" class="value">12,568</text>
+      <text x="20" y="184" class="diffAdd">+<tspan id="loc_add">9,171</tspan></text>
+      <text x="90" y="184" class="diffDel">-<tspan id="loc_del">3,397</tspan></text>
     </g>
 
     <!-- blinking terminal cursor -->
