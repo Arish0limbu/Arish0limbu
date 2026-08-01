@@ -45,14 +45,17 @@
 
 <!-- ================= GITHUB STATISTICS ================= -->
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=1800&pause=700&color=00FF41,00FFFF,FF00FF,FFD700,FF0000&center=false&vCenter=true&width=700&lines=%3E+SCANNING+PROFILE...;%3E+COLLECTING+REPOSITORY+DATA;%3E+CALCULATING+CONTRIBUTIONS;%3E+GITHUB+STATISTICS+READY" />
-<img src="assets/stats.svg" alt="Github Profile" width="100%" >
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Arish0limbu&theme=dracula&hide_border=true&background=0d1117&stroke=00f0ff&ring=b967ff&fire=00f0ff&currStreakLabel=00f0ff"/>
 
+<img src="assets/stats.svg" alt="Github Profile" width="100%" >
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,13,20&height=3&width=100%"/>
+<div align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Arish0limbu&theme=dracula&hide_border=true&background=0d1117&stroke=00f0ff&ring=b967ff&fire=00f0ff&currStreakLabel=00f0ff"/></div>
+  <img src="assets/line.svg" alt="GitHub Profile" width="100%">
+    <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 
 <!-- ================= ACTIVITY GRAPH ================= -->
-## 📈 Contribution Activity Graph
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=1800&pause=700&color=00FF41,00FFFF,FF00FF,FFD700,FF0000&center=false&vCenter=true&width=700&lines=%3E+SCANNING+PROFILE...;%3E+ANALYZING+CONTRIBUTIONS;%3E+GENERATING+ACTIVITY+GRAPH;%3E+SNAKE+SIMULATION+ONLINE" />
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Arish0limbu&theme=react-dark&bg_color=0d1117&color=00f0ff&line=b967ff&point=ffffff&hide_border=true"/>
