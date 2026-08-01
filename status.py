@@ -367,10 +367,16 @@ def update_svg(svg_file, stats):
 # Main
 # --------------------------------------------------------------------------
 
+SVG_FILES = ["assets/dark.svg", "assets/stats.svg"]
+
+
 def main():
-    svg_file = "assets/dark.svg"
-    if not os.path.exists(svg_file):
-        raise FileNotFoundError(f"{svg_file} not found.")
+    existing = [f for f in SVG_FILES if os.path.exists(f)]
+    missing = [f for f in SVG_FILES if f not in existing]
+    for f in missing:
+        print(f"Warning: {f} not found, skipping.")
+    if not existing:
+        raise FileNotFoundError(f"None of {SVG_FILES} were found.")
 
     print("Fetching profile & repository data...")
     profile = get_profile()
@@ -396,8 +402,9 @@ def main():
         "loc_del": loc_del,
     }
 
-    print("Updating SVG...")
-    update_svg(svg_file, stats)
+    for svg_file in existing:
+        print(f"Updating {svg_file}...")
+        update_svg(svg_file, stats)
 
     print("Done!", stats)
 
