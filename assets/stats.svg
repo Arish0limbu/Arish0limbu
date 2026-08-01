@@ -1,0 +1,100 @@
+<svg width="500" height="215" viewBox="0 0 500 215" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39d9c4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#39d9c4" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#39d9c4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#39d9c4" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffa657" stop-opacity="0.35"/>
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect x="1" y="1" width="498" height="213" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .card { fill: #0d1117; }
+    .titlebar { fill: #12161f; }
+    .path-text { font: 11px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #6e7681; }
+    .dot { opacity: 0.9; }
+    .prompt { font: 13px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #39d9c4; }
+    .label { font: 13px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #79c0ff; }
+    .value { font: bold 13px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #ffa657; }
+    .dots  { font: 13px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #30363d; }
+    .diffAdd { font: 11px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #3fb950; }
+    .diffDel { font: 11px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #f85149; }
+    .line { opacity: 0; animation: fadeIn 0.5s ease-out forwards; }
+    .l1 { animation-delay: 0.15s; }
+    .l2 { animation-delay: 0.55s; }
+    .l3 { animation-delay: 0.95s; }
+    .l4 { animation-delay: 1.35s; }
+    @keyframes fadeIn { to { opacity: 1; } }
+    .cursor { animation: blink 1s steps(1) infinite; animation-delay: 1.8s; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+  </style>
+
+  <!-- outer glow border -->
+  <rect x="0" y="0" width="500" height="215" rx="11" fill="url(#borderGlow)" opacity="0.5"/>
+  <rect x="1" y="1" width="498" height="213" rx="10" class="card" stroke="#21262d" stroke-width="1"/>
+
+  <g clip-path="url(#cardClip)">
+    <!-- ambient commit-pulse line, drawn once then looping drift -->
+    <path d="M -50 178 L 20 178 L 40 150 L 60 195 L 80 178 L 140 178 L 160 160 L 180 178 L 260 178 L 280 140 L 300 200 L 320 178 L 500 178"
+          fill="none" stroke="url(#pulseGrad)" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate"
+                         values="0 0; -220 0; 0 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- title bar -->
+    <rect x="1" y="1" width="498" height="30" class="titlebar"/>
+    <line x1="1" y1="31" x2="499" y2="31" stroke="#21262d" stroke-width="1"/>
+    <circle class="dot" cx="20" cy="16" r="5" fill="#ff5f56"/>
+    <circle class="dot" cx="38" cy="16" r="5" fill="#ffbd2e"/>
+    <circle class="dot" cx="56" cy="16" r="5" fill="#27c93f"/>
+    <text x="250" y="20" text-anchor="middle" class="path-text">arish0limbu@github:~/stats.sh</text>
+
+    <!-- boot line -->
+    <text x="20" y="55" class="prompt">$</text>
+    <text x="36" y="55" class="label">whoami</text>
+    <text x="120" y="55" class="value">Arish0limbu</text>
+
+    <!-- stat lines -->
+    <g class="line l1">
+      <text x="20" y="88" class="label">Repos:</text>
+      <text id="repo_data_dots" x="66" y="88" class="dots">.......</text>
+      <text id="repo_data" x="132" y="88" class="value">0</text>
+
+      <text x="150" y="88" class="label">| Stars:</text>
+      <text id="star_data_dots" x="205" y="88" class="dots">.......</text>
+      <text id="star_data" x="271" y="88" class="value">0</text>
+    </g>
+
+    <g class="line l2">
+      <text x="20" y="112" class="label">Followers:</text>
+      <text id="follower_data_dots" x="90" y="112" class="dots">.......</text>
+      <text id="follower_data" x="156" y="112" class="value">0</text>
+
+      <text x="174" y="112" class="label">| Contributed to:</text>
+      <text id="contrib_data" x="316" y="112" class="value">0</text>
+    </g>
+
+    <g class="line l3">
+      <text x="20" y="140" class="label">Commmits:</text>
+      <text id="commit_data_dots" x="98" y="140" class="dots">....................................</text>
+      <text id="commit_data" x="325" y="140" class="value">0</text>
+    </g>
+
+    <g class="line l4">
+      <text x="20" y="166" class="label">Lines of Code on GitHub:</text>
+      <text id="loc_data_dots" x="212" y="166" class="dots">....................................</text>
+      <text id="loc_data" x="440" y="166" class="value">0</text>
+      <text x="20" y="184" class="diffAdd">+<tspan id="loc_add">0</tspan></text>
+      <text x="90" y="184" class="diffDel">-<tspan id="loc_del">0</tspan></text>
+    </g>
+
+    <!-- blinking terminal cursor -->
+    <rect class="cursor" x="20" y="195" width="9" height="14" fill="#39d9c4"/>
+  </g>
+</svg>

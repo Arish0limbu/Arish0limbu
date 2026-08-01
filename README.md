@@ -9,9 +9,11 @@
 <!-- ================= ABOUT ME ================= -->
   <img src="assets/dark.svg" alt="GitHub Profile" width="100%">
   <img src="assets/line.svg" alt="GitHub Profile" width="100%">
+  
   <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 <!-- ================= TECH STACK ================= -->
  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=1800&pause=700&color=00FF41,00FFFF,FF00FF,FFD700,FF0000&center=false&vCenter=true&width=700&lines=%3E+INITIALIZING...;%3E+LOADING+TECH+STACK;%3E+MODULES+ONLINE;%3E+TECH+ARSENAL+READY" />
+ 
 
 ### 🌐 Frontend
 <p>
@@ -38,21 +40,14 @@
   <img src="https://skillicons.dev/icons?i=git,github,docker,vscode&theme=dark" height="40" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&width=100%"/>
+ <img src="assets/line.svg" alt="GitHub Profile" width="100%">
+ <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 
 <!-- ================= GITHUB STATISTICS ================= -->
-## 📊 GitHub Statistics
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Arish0limbu&show_icons=true&theme=dracula&hide_border=true&bg_color=0d1117&title_color=00f0ff&icon_color=b967ff&text_color=c9d1d9&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arish0limbu&layout=compact&theme=dracula&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9"/>
-
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=1800&pause=700&color=00FF41,00FFFF,FF00FF,FFD700,FF0000&center=false&vCenter=true&width=700&lines=%3E+SCANNING+PROFILE...;%3E+COLLECTING+REPOSITORY+DATA;%3E+CALCULATING+CONTRIBUTIONS;%3E+GITHUB+STATISTICS+READY" />
+<img src="assets/stats.svg" alt="Github Profile" width="100%" >
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Arish0limbu&theme=dracula&hide_border=true&background=0d1117&stroke=00f0ff&ring=b967ff&fire=00f0ff&currStreakLabel=00f0ff"/>
 
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=Arish0limbu&theme=dracula&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9"/>
-
-</div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,13,20&height=3&width=100%"/>
 
