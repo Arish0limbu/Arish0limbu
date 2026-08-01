@@ -1,0 +1,179 @@
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0e0d"/>
+      <stop offset="100%" stop-color="#08090a"/>
+    </linearGradient>
+
+    <clipPath id="termClip">
+      <rect x="40" y="40" width="820" height="540" rx="10"/>
+    </clipPath>
+
+    <style>
+      <![CDATA[
+      .rain {
+        fill: #2ee06b;
+        font-size: 12.5px;
+        opacity: 0.22;
+        animation: fall linear infinite;
+      }
+      .rain tspan { fill: inherit; }
+      @keyframes fall {
+        0%   { transform: translateY(-260px); }
+        100% { transform: translateY(560px); }
+      }
+
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      .typeline {
+        opacity: 0;
+        animation: reveal 0.5s ease-out forwards;
+      }
+      @keyframes reveal {
+        0%   { opacity: 0; transform: translateX(-5px); }
+        100% { opacity: 1; transform: translateX(0px); }
+      }
+
+      .chip {
+        opacity: 0;
+        animation: chipIn 0.45s ease-out forwards;
+      }
+      @keyframes chipIn {
+        0%   { opacity: 0; transform: translateY(5px); }
+        100% { opacity: 1; transform: translateY(0px); }
+      }
+
+      .border-pulse { animation: pulse 4s ease-in-out infinite; }
+      @keyframes pulse {
+        0%, 100% { stroke-opacity: 0.35; }
+        50% { stroke-opacity: 0.65; }
+      }
+      ]]>
+    </style>
+  </defs>
+
+  <rect width="900" height="620" fill="url(#bgGrad)"/>
+
+  <!-- terminal frame -->
+  <rect x="40" y="40" width="820" height="540" rx="10" fill="#0d1210" stroke="#2ee06b" stroke-width="1" class="border-pulse"/>
+
+  <g clip-path="url(#termClip)">
+    <!-- falling code snippets, kept in the open right-hand column so they don't cross the skill list -->
+    <g class="rain-group">
+      <text class="rain" x="460" style="animation-duration:12s; animation-delay:0.2s">
+        <tspan x="460" dy="0">&lt;div class=&quot;app&quot;&gt;</tspan>
+        <tspan x="460" dy="18">const x =&gt; x * 2</tspan>
+        <tspan x="460" dy="18">def main():</tspan>
+        <tspan x="460" dy="18">SELECT * FROM db</tspan>
+        <tspan x="460" dy="18">git commit -m fix</tspan>
+        <tspan x="460" dy="18">&lt;?php echo $x; ?&gt;</tspan>
+        <tspan x="460" dy="18">std::cout &lt;&lt; n;</tspan>
+      </text>
+
+      <text class="rain" x="560" style="animation-duration:14s; animation-delay:1.6s">
+        <tspan x="560" dy="0">FROM node:20</tspan>
+        <tspan x="560" dy="18">.container { }</tspan>
+        <tspan x="560" dy="18">import firebase</tspan>
+        <tspan x="560" dy="18">#include &lt;stdio.h&gt;</tspan>
+        <tspan x="560" dy="18">git push origin</tspan>
+        <tspan x="560" dy="18">while(true) run()</tspan>
+        <tspan x="560" dy="18">&lt;/html&gt;</tspan>
+      </text>
+
+      <text class="rain" x="660" style="animation-duration:11s; animation-delay:0.8s">
+        <tspan x="660" dy="0">function init(){</tspan>
+        <tspan x="660" dy="18">printf(&quot;ok\n&quot;);</tspan>
+        <tspan x="660" dy="18">CREATE TABLE db</tspan>
+        <tspan x="660" dy="18">docker build .</tspan>
+        <tspan x="660" dy="18">$query = &quot;SELECT&quot;</tspan>
+        <tspan x="660" dy="18">class Node {}</tspan>
+        <tspan x="660" dy="18">return response</tspan>
+      </text>
+
+      <text class="rain" x="760" style="animation-duration:13s; animation-delay:2.4s">
+        <tspan x="760" dy="0">npm run build</tspan>
+        <tspan x="760" dy="18">for(i=0;i&lt;n;i++)</tspan>
+        <tspan x="760" dy="18">auth.signIn()</tspan>
+        <tspan x="760" dy="18">&lt;?php require; ?&gt;</tspan>
+        <tspan x="760" dy="18">int main(void){</tspan>
+        <tspan x="760" dy="18">git checkout -b</tspan>
+        <tspan x="760" dy="18">.then(res =&gt; {})</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- title bar -->
+  <rect x="40" y="40" width="820" height="32" rx="10" fill="#0f1513"/>
+  <rect x="40" y="56" width="820" height="16" fill="#0f1513"/>
+  <circle cx="62" cy="56" r="5" fill="#3a3f3d"/>
+  <circle cx="80" cy="56" r="5" fill="#3a3f3d"/>
+  <circle cx="98" cy="56" r="5" fill="#3a3f3d"/>
+  <text x="450" y="61" text-anchor="middle" fill="#5b6b62" font-size="12">dev@machine — ~/skills</text>
+
+  <!-- content -->
+  <g fill="#e6f2ec">
+    <text x="64" y="106" font-size="15" class="typeline" style="animation-delay:0.2s"><tspan fill="#2ee06b">$</tspan> whoami</text>
+    <text x="64" y="128" font-size="13" fill="#7a877f" class="typeline" style="animation-delay:0.5s">developer // building things that work</text>
+
+    <text x="64" y="158" font-size="15" class="typeline" style="animation-delay:0.8s"><tspan fill="#2ee06b">$</tspan> ls skills/</text>
+  </g>
+
+  <!-- FRONTEND -->
+  <g class="typeline" style="animation-delay:1.1s">
+    <text x="64" y="196" font-size="13" fill="#7a877f" letter-spacing="1.5">FRONTEND</text>
+  </g>
+  <g font-size="12.5">
+    <g class="chip" style="animation-delay:1.2s"><rect x="64"  y="206" width="60" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="94"  y="223" text-anchor="middle" fill="#cdeede">HTML</text></g>
+    <g class="chip" style="animation-delay:1.28s"><rect x="132" y="206" width="54" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="159" y="223" text-anchor="middle" fill="#cdeede">CSS</text></g>
+    <g class="chip" style="animation-delay:1.36s"><rect x="194" y="206" width="108" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="248" y="223" text-anchor="middle" fill="#cdeede">JAVASCRIPT</text></g>
+  </g>
+
+  <!-- BACKEND -->
+  <g class="typeline" style="animation-delay:1.5s">
+    <text x="64" y="264" font-size="13" fill="#7a877f" letter-spacing="1.5">BACKEND</text>
+  </g>
+  <g font-size="12.5">
+    <g class="chip" style="animation-delay:1.6s"><rect x="64"  y="274" width="54" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="91"  y="291" text-anchor="middle" fill="#cdeede">PHP</text></g>
+    <g class="chip" style="animation-delay:1.68s"><rect x="126" y="274" width="82" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="167" y="291" text-anchor="middle" fill="#cdeede">PYTHON</text></g>
+    <g class="chip" style="animation-delay:1.76s"><rect x="216" y="274" width="94" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="263" y="291" text-anchor="middle" fill="#cdeede">FIREBASE</text></g>
+  </g>
+
+  <!-- DATABASE -->
+  <g class="typeline" style="animation-delay:1.9s">
+    <text x="64" y="332" font-size="13" fill="#7a877f" letter-spacing="1.5">DATABASE</text>
+  </g>
+  <g font-size="12.5">
+    <g class="chip" style="animation-delay:2.0s"><rect x="64" y="342" width="76" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="102" y="359" text-anchor="middle" fill="#cdeede">MYSQL</text></g>
+  </g>
+
+  <!-- LANGUAGES -->
+  <g class="typeline" style="animation-delay:2.2s">
+    <text x="64" y="400" font-size="13" fill="#7a877f" letter-spacing="1.5">LANGUAGES</text>
+  </g>
+  <g font-size="12.5">
+    <g class="chip" style="animation-delay:2.3s"><rect x="64"  y="410" width="36" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="82"  y="427" text-anchor="middle" fill="#cdeede">C</text></g>
+    <g class="chip" style="animation-delay:2.38s"><rect x="108" y="410" width="54" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="135" y="427" text-anchor="middle" fill="#cdeede">C++</text></g>
+    <g class="chip" style="animation-delay:2.46s"><rect x="170" y="410" width="82" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="211" y="427" text-anchor="middle" fill="#cdeede">PYTHON</text></g>
+  </g>
+
+  <!-- TOOLS -->
+  <g class="typeline" style="animation-delay:2.6s">
+    <text x="64" y="468" font-size="13" fill="#7a877f" letter-spacing="1.5">TOOLS &amp; TECH</text>
+  </g>
+  <g font-size="12.5">
+    <g class="chip" style="animation-delay:2.7s"><rect x="64"  y="478" width="46" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="87"  y="495" text-anchor="middle" fill="#cdeede">GIT</text></g>
+    <g class="chip" style="animation-delay:2.78s"><rect x="118" y="478" width="78" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="157" y="495" text-anchor="middle" fill="#cdeede">GITHUB</text></g>
+    <g class="chip" style="animation-delay:2.86s"><rect x="204" y="478" width="80" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="244" y="495" text-anchor="middle" fill="#cdeede">DOCKER</text></g>
+    <g class="chip" style="animation-delay:2.94s"><rect x="292" y="478" width="88" height="26" rx="5" fill="none" stroke="#2ee06b" stroke-opacity="0.5"/><text x="336" y="495" text-anchor="middle" fill="#cdeede">VS CODE</text></g>
+  </g>
+
+  <!-- footer -->
+  <g class="typeline" style="animation-delay:3.2s">
+    <text x="64" y="556" font-size="15" fill="#e6f2ec"><tspan fill="#2ee06b">$</tspan> status: ready</text>
+    <rect x="232" y="544" width="8" height="15" fill="#2ee06b" class="cursor"/>
+  </g>
+</svg>

@@ -13,33 +13,7 @@
   <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 <!-- ================= TECH STACK ================= -->
  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=1800&pause=700&color=00FF41,00FFFF,FF00FF,FFD700,FF0000&center=false&vCenter=true&width=700&lines=%3E+INITIALIZING...;%3E+LOADING+TECH+STACK;%3E+MODULES+ONLINE;%3E+TECH+ARSENAL+READY" />
- 
-
-### 🌐 Frontend
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" height="40" />
-</p>
-
-### 🖥️ Backend
-<p>
-  <img src="https://skillicons.dev/icons?i=php,python,firebase&theme=dark" height="40" />
-</p>
-
-### 🗄️ Database
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql&theme=dark" height="40" />
-</p>
-
-### 💻 Programming Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,python&theme=dark" height="40" />
-</p>
-
-### ⚙️ Tools & Technologies
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode&theme=dark" height="40" />
-</p>
-
+ <img src="assets/skills.svg" alt="GitHub Profile" width="100%">
  <img src="assets/line.svg" alt="GitHub Profile" width="100%">
  <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 
