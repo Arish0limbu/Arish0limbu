@@ -41,23 +41,23 @@ jobs:
           # Optional: comma-separated list of extra commit-author emails
           # (e.g. a work email) to include in the lines-of-code count.
           EXTRA_EMAILS: ${{ vars.EXTRA_EMAILS }}
-        run: python status.py
+        run: python python/status.py
 
       - name: Run stats2.py (stats.svg only)
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           EXTRA_EMAILS: ${{ vars.EXTRA_EMAILS }}
-        run: python stats2.py
+        run: python python/stats2.py
 
       - name: Run contribution_shooter.py
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        run: python contribution_shooter.py
+        run: python python/contribution_shooter.py
 
       - name: Run achievement.py
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        run: python achievement.py
+        run: python/python achievement.py
 
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
