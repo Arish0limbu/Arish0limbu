@@ -368,19 +368,22 @@ def update_svg(svg_file, stats):
     replace(root, "loc_del", fmt(stats["loc_del"]))
 
     # Block widths are the fixed total character count (label + dots +
-    # value) that each field occupies in dark.svg, so text after it
-    # ("| Stars:", "| Followers:", etc.) always lines up. These were
-    # measured directly from the current dark.svg layout.
+    # value) that each field occupies in stats.svg, so text after it
+    # always lines up. These were measured directly from the
+    # hand-arranged stats.svg layout -- update these numbers again if
+    # you manually reposition things further.
     replace(root, "repo_data_dots",
             make_dots("Repos:", fmt(stats["repos"]), 19))
     replace(root, "star_data_dots",
-            make_dots("Stars:", fmt(stats["stars"]), 19))
+            make_dots("Stars:", fmt(stats["stars"]), 26))
     replace(root, "follower_data_dots",
             make_dots("Followers:", fmt(stats["followers"]), 19))
+    replace(root, "contrib_data_dots",
+            make_dots("Contributed to:", fmt(stats["contributed"]), 22))
     replace(root, "commit_data_dots",
-            make_dots("Commmits:", fmt(stats["commits"]), 36))
+            make_dots("Commmits:", fmt(stats["commits"]), 33))
     replace(root, "loc_data_dots",
-            make_dots("Lines of Code on GitHub:", fmt(stats["loc_add"] + stats["loc_del"]), 36))
+            make_dots("Lines of Code on GitHub:", fmt(stats["loc_add"] + stats["loc_del"]), 47))
 
     tree.write(svg_file, encoding="utf-8", xml_declaration=True)
 
