@@ -1,0 +1,121 @@
+<svg width="574" height="314" viewBox="0 0 574 314" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="achBezel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1b3d"/>
+      <stop offset="100%" stop-color="#120a1c"/>
+    </linearGradient>
+    <radialGradient id="unlockGlow" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#4df1ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#4df1ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+
+  <style>
+    .cab { fill: #0a0710; }
+    .screen { fill: #05060a; }
+    .hud-label { font: 9px 'SFMono-Regular', Consolas, monospace; fill: #6e5a8a; letter-spacing: 1px; }
+    .hud-value { font: bold 16px 'SFMono-Regular', Consolas, monospace; fill: #4df1ff; }
+    .card-locked { fill: #0d1017; stroke: #23202f; }
+    .card-unlocked { fill: #12101f; stroke: #4df1ff; }
+    .label-locked { font: bold 9px 'SFMono-Regular', Consolas, monospace; fill: #4a4560; letter-spacing: 0.5px; }
+    .label-unlocked { font: bold 9px 'SFMono-Regular', Consolas, monospace; fill: #e8f6ff; letter-spacing: 0.5px; }
+    .sub-locked { font: 8px 'SFMono-Regular', Consolas, monospace; fill: #38334a; }
+    .sub-unlocked { font: 8px 'SFMono-Regular', Consolas, monospace; fill: #8b93b8; }
+    .pop { animation: pop 0.6s ease-out; transform-box: fill-box; transform-origin: center; }
+    @keyframes pop {
+      0% { transform: scale(0.7); opacity: 0; }
+      70% { transform: scale(1.08); opacity: 1; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    .twinkle { animation: twinkle 2.4s ease-in-out infinite; }
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.55; }
+      50% { opacity: 1; }
+    }
+  </style>
+
+<rect x="0" y="0" width="574" height="314" rx="10" fill="url(#achBezel)"/>
+<rect x="4" y="4" width="566" height="306" rx="6" class="screen"/>
+<text x="16.0" y="26" class="hud-label">PROFILE VIEWS</text>
+<text x="16.0" y="46" class="hud-value">154</text>
+<text x="196.66666666666666" y="26" class="hud-label">STARS</text>
+<text x="196.66666666666666" y="46" class="hud-value">2</text>
+<text x="377.3333333333333" y="26" class="hud-label">FOLLOWERS</text>
+<text x="377.3333333333333" y="46" class="hud-value">1</text>
+<text x="558" y="26" text-anchor="end" class="hud-label twinkle">2/8 UNLOCKED</text>
+<line x1="16" y1="56" x2="558" y2="56" stroke="#23202f" stroke-width="1"/>
+<g transform="translate(16,72)" class="pop" style="animation-delay:0.00s">
+<rect x="0" y="0" width="128" height="108" rx="8" fill="url(#unlockGlow)"/>
+<rect x="0.5" y="0.5" width="127" height="107" rx="8" class="card-unlocked" stroke-width="1.2"/>
+<g transform="translate(51.0,14) scale(1.083)">
+<rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="#9dff8f" stroke-width="2"/><line x1="3" y1="9" x2="21" y2="9" stroke="#9dff8f" stroke-width="2"/>
+</g>
+<text x="64.0" y="72" text-anchor="middle" class="label-unlocked">FIRST LIGHT</text>
+<text x="64.0" y="86" text-anchor="middle" class="sub-unlocked">Ship 1+ repo</text>
+</g>
+<g transform="translate(154,72)" class="pop" style="animation-delay:0.08s">
+<rect x="0.5" y="0.5" width="127" height="107" rx="8" class="card-locked" stroke-width="1.2"/>
+<g transform="translate(51.0,14) scale(1.083)">
+<path d="M12 2 L14.5 8.5 L21 9 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9 L9.5 8.5 Z" fill="#3a3550"/>
+</g>
+<text x="64.0" y="72" text-anchor="middle" class="label-locked">STARGAZER</text>
+<text x="64.0" y="86" text-anchor="middle" class="sub-locked">Earn 5+ stars</text>
+<text x="64.0" y="98" text-anchor="middle" class="sub-locked">LOCKED</text>
+</g>
+<g transform="translate(292,72)" class="pop" style="animation-delay:0.16s">
+<rect x="0.5" y="0.5" width="127" height="107" rx="8" class="card-locked" stroke-width="1.2"/>
+<g transform="translate(51.0,14) scale(1.083)">
+<path d="M12 2 L14.5 8.5 L21 9 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9 L9.5 8.5 Z" fill="#3a3550"/>
+</g>
+<text x="64.0" y="72" text-anchor="middle" class="label-locked">OPEN SOURCE</text>
+<text x="64.0" y="86" text-anchor="middle" class="sub-locked">Earn 25+ stars</text>
+<text x="64.0" y="98" text-anchor="middle" class="sub-locked">LOCKED</text>
+</g>
+<g transform="translate(430,72)" class="pop" style="animation-delay:0.24s">
+<rect x="0.5" y="0.5" width="127" height="107" rx="8" class="card-locked" stroke-width="1.2"/>
+<g transform="translate(51.0,14) scale(1.083)">
+<circle cx="8" cy="8" r="3.2" fill="#3a3550"/><circle cx="16" cy="8" r="3.2" fill="#3a3550"/><path d="M2 20c0-4 3-6.5 6-6.5s6 2.5 6 6.5" fill="#3a3550"/><path d="M12 20c0-3.5 2.5-6 6-6s6 2.5 6 6" fill="#3a3550" opacity="0.85"/>
+</g>
+<text x="64.0" y="72" text-anchor="middle" class="label-locked">COMMUNITY</text>
+<text x="64.0" y="86" text-anchor="middle" class="sub-locked">10+ followers</text>
+<text x="64.0" y="98" text-anchor="middle" class="sub-locked">LOCKED</text>
+</g>
+<g transform="translate(16,190)" class="pop" style="animation-delay:0.32s">
+<rect x="0.5" y="0.5" width="127" height="107" rx="8" class="card-locked" stroke-width="1.2"/>
+<g transform="translate(51.0,14) scale(1.083)">
+<path d="M2 18h20l-2-9-5 4-3-7-3 7-5-4Z" fill="#3a3550"/>
+</g>
+<text x="64.0" y="72" text-anchor="middle" class="label-locked">KNOWN DEV</text>
+<text x="64.0" y="86" text-anchor="middle" class="sub-locked">50+ followers</text>
+<text x="64.0" y="98" text-anchor="middle" class="sub-locked">LOCKED</text>
+</g>
+<g transform="translate(154,190)" class="pop" style="animation-delay:0.40s">
+<rect x="0" y="0" width="128" height="108" rx="8" fill="url(#unlockGlow)"/>
+<rect x="0.5" y="0.5" width="127" height="107" rx="8" class="card-unlocked" stroke-width="1.2"/>
+<g transform="translate(51.0,14) scale(1.083)">
+<path d="M1 12s4.5-7 11-7 11 7 11 7-4.5 7-11 7-11-7-11-7Z" fill="none" stroke="#ff8a4d" stroke-width="2"/><circle cx="12" cy="12" r="3.4" fill="#ff8a4d"/>
+</g>
+<text x="64.0" y="72" text-anchor="middle" class="label-unlocked">ON THE MAP</text>
+<text x="64.0" y="86" text-anchor="middle" class="sub-unlocked">100+ profile views</text>
+</g>
+<g transform="translate(292,190)" class="pop" style="animation-delay:0.48s">
+<rect x="0.5" y="0.5" width="127" height="107" rx="8" class="card-locked" stroke-width="1.2"/>
+<g transform="translate(51.0,14) scale(1.083)">
+<path d="M1 12s4.5-7 11-7 11 7 11 7-4.5 7-11 7-11-7-11-7Z" fill="none" stroke="#3a3550" stroke-width="2"/><circle cx="12" cy="12" r="3.4" fill="#3a3550"/>
+</g>
+<text x="64.0" y="72" text-anchor="middle" class="label-locked">VIRAL</text>
+<text x="64.0" y="86" text-anchor="middle" class="sub-locked">1,000+ profile views</text>
+<text x="64.0" y="98" text-anchor="middle" class="sub-locked">LOCKED</text>
+</g>
+<g transform="translate(430,190)" class="pop" style="animation-delay:0.56s">
+<rect x="0.5" y="0.5" width="127" height="107" rx="8" class="card-locked" stroke-width="1.2"/>
+<g transform="translate(51.0,14) scale(1.083)">
+<path d="M12 2c3 2 5 6 5 11 0 2-.5 4-1.5 6h-7C7.5 17 7 15 7 13c0-5 2-9 5-11Z" fill="#3a3550"/><circle cx="12" cy="10" r="2" fill="#0a0710"/><path d="M7 15l-3 5 4-2" fill="#3a3550"/><path d="M17 15l3 5-4-2" fill="#3a3550"/>
+</g>
+<text x="64.0" y="72" text-anchor="middle" class="label-locked">BUILDER</text>
+<text x="64.0" y="86" text-anchor="middle" class="sub-locked">Ship 10+ repos</text>
+<text x="64.0" y="98" text-anchor="middle" class="sub-locked">LOCKED</text>
+</g>
+</svg>
