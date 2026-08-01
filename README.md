@@ -11,8 +11,8 @@
   <img src="assets/line.svg" alt="GitHub Profile" width="100%">
   <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 <!-- ================= TECH STACK ================= -->
-## 🛠 Tech Stack
-
+ <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=1800&pause=700&color=00FF41,00FFFF,FF00FF,FFD700,FF0000&center=false&vCenter=true&width=700&lines=%3E+INITIALIZING...;%3E+LOADING+TECH+STACK;%3E+MODULES+ONLINE;%3E+TECH+ARSENAL+READY" />
+ 
 <div align="center">
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=00f0ff&labelColor=0d1117)
