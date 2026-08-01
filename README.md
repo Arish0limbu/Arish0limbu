@@ -63,14 +63,14 @@
 </div>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=30&width=100%"/>
 
- <img src="assets/contribution_shooter_demo.svg" alt="GitHub Profile" width="100%">
+ <img src="assets/contribution_shooter.svg" alt="GitHub Profile" width="100%">
  <img src="assets/line.svg" alt="GitHub Profile" width="100%">
  <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 
 <!-- ================= TROPHIES ================= -->
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=1800&pause=700&color=00FF41,00FFFF,FF00FF,FFD700,FF0000&center=false&vCenter=true&width=700&lines=%3E+ACCESSING+GITHUB+NODE...;%3E+DECRYPTING+ACHIEVEMENT+DATA;%3E+VALIDATING+TROPHIES;%3E+TROPHY+ROOM+ONLINE" />
 
-<img src="assets/achievement_demo.svg" alt="GitHub Profile" width="100%">
+<img src="assets/achievement.svg" alt="GitHub Profile" width="100%">
 <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,13,20&height=3&width=100%"/>
