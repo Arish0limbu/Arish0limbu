@@ -18,10 +18,10 @@
     "commits": 5
   },
   "Arish0limbu/Arish0limbu": {
-    "last_sha": "5ee4fbefa2845ac2f45a89a9adb918887c80f038",
-    "additions": 2700,
-    "deletions": 1107,
-    "commits": 90
+    "last_sha": "e37f2c805d42b3c92e0fcdfbfef1f5d92b975f61",
+    "additions": 2727,
+    "deletions": 1131,
+    "commits": 92
   },
   "Arish0limbu/pose": {
     "last_sha": null,
@@ -30,8 +30,8 @@
     "commits": 0
   },
   "_totals": {
-    "additions": 9765,
-    "deletions": 3517,
-    "commits": 103
+    "additions": 9792,
+    "deletions": 3541,
+    "commits": 105
   }
 }
