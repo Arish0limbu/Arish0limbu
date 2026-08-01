@@ -83,15 +83,15 @@
     <g class="line l3">
       <text x="20" y="140" class="label">Commmits:</text>
       <text id="commit_data_dots" x="90" y="140" class="dots">.....................</text>
-      <text id="commit_data" x="250" y="140" class="value">107</text>
+      <text id="commit_data" x="250" y="140" class="value">110</text>
     </g>
 
     <g class="line l4">
       <text x="20" y="166" class="label">Lines of Code on GitHub:</text>
       <text id="loc_data_dots" x="195" y="166" class="dots">.................</text>
-      <text id="loc_data" x="310" y="166" class="value">15,574</text>
-      <text x="20" y="200" class="diffAdd">+<tspan id="loc_add">11,839</tspan></text>
-      <text x="430" y="200" class="diffDel">-<tspan id="loc_del">3,735</tspan></text>
+      <text id="loc_data" x="310" y="166" class="value">16,404</text>
+      <text x="20" y="200" class="diffAdd">+<tspan id="loc_add">11,860</tspan></text>
+      <text x="430" y="200" class="diffDel">-<tspan id="loc_del">4,544</tspan></text>
     </g>
 
     <!-- blinking terminal cursor -->
