@@ -41,10 +41,10 @@
 <text x="16.0" y="26" class="hud-label">PROFILE VIEWS</text>
 <text x="16.0" y="46" class="hud-value">155</text>
 <text x="196.66666666666666" y="26" class="hud-label">STARS</text>
-<text x="196.66666666666666" y="46" class="hud-value">2</text>
+<text x="196.66666666666666" y="46" class="hud-value">5</text>
 <text x="377.3333333333333" y="26" class="hud-label">FOLLOWERS</text>
-<text x="377.3333333333333" y="46" class="hud-value">1</text>
-<text x="558" y="26" text-anchor="end" class="hud-label twinkle">2/8 UNLOCKED</text>
+<text x="377.3333333333333" y="46" class="hud-value">4</text>
+<text x="558" y="26" text-anchor="end" class="hud-label twinkle">3/8 UNLOCKED</text>
 <line x1="16" y1="56" x2="558" y2="56" stroke="#23202f" stroke-width="1"/>
 <g transform="translate(16,72)" class="pop" style="animation-delay:0.00s">
 <rect x="0" y="0" width="128" height="108" rx="8" fill="url(#unlockGlow)"/>
@@ -56,13 +56,13 @@
 <text x="64.0" y="86" text-anchor="middle" class="sub-unlocked">Ship 1+ repo</text>
 </g>
 <g transform="translate(154,72)" class="pop" style="animation-delay:0.08s">
-<rect x="0.5" y="0.5" width="127" height="107" rx="8" class="card-locked" stroke-width="1.2"/>
+<rect x="0" y="0" width="128" height="108" rx="8" fill="url(#unlockGlow)"/>
+<rect x="0.5" y="0.5" width="127" height="107" rx="8" class="card-unlocked" stroke-width="1.2"/>
 <g transform="translate(51.0,14) scale(1.083)">
-<path d="M12 2 L14.5 8.5 L21 9 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9 L9.5 8.5 Z" fill="#3a3550"/>
+<path d="M12 2 L14.5 8.5 L21 9 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9 L9.5 8.5 Z" fill="#ffd24d"/>
 </g>
-<text x="64.0" y="72" text-anchor="middle" class="label-locked">STARGAZER</text>
-<text x="64.0" y="86" text-anchor="middle" class="sub-locked">Earn 5+ stars</text>
-<text x="64.0" y="98" text-anchor="middle" class="sub-locked">LOCKED</text>
+<text x="64.0" y="72" text-anchor="middle" class="label-unlocked">STARGAZER</text>
+<text x="64.0" y="86" text-anchor="middle" class="sub-unlocked">Earn 5+ stars</text>
 </g>
 <g transform="translate(292,72)" class="pop" style="animation-delay:0.16s">
 <rect x="0.5" y="0.5" width="127" height="107" rx="8" class="card-locked" stroke-width="1.2"/>
