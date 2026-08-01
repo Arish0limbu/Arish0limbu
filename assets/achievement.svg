@@ -39,7 +39,7 @@
 <rect x="0" y="0" width="574" height="314" rx="10" fill="url(#achBezel)"/>
 <rect x="4" y="4" width="566" height="306" rx="6" class="screen"/>
 <text x="16.0" y="26" class="hud-label">PROFILE VIEWS</text>
-<text x="16.0" y="46" class="hud-value">154</text>
+<text x="16.0" y="46" class="hud-value">155</text>
 <text x="196.66666666666666" y="26" class="hud-label">STARS</text>
 <text x="196.66666666666666" y="46" class="hud-value">2</text>
 <text x="377.3333333333333" y="26" class="hud-label">FOLLOWERS</text>
