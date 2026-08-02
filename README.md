@@ -60,7 +60,7 @@
 <!-- ================= CONNECT WITH ME ================= -->
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=1800&pause=700&color=00FF41,00FFFF,FF00FF,FFD700,FF0000&center=false&vCenter=true&width=700&lines=%3E+SCANNING+NETWORK...;%3E+SECURE+CHANNEL+READY;%3E+AWAITING+CONNECTION...;%3E+CONNECT+WITH+ME" />
 
-<a href="https://github.com/Arish0limbu" target="_blank"><img src="./icons/github-icon.svg" width="60"/></a> <a href="www.linkedin.com/in/arish-limbu" target="_blank"><img src="./icons/linkedin-icon.svg" width="60"/></a> <a href="https://facebook.com/YOUR-FACEBOOK" target="_blank"><img src="./icons/facebook-icon.svg" width="60"/></a> <a href="https://instagram.com/YOUR-INSTAGRAM" target="_blank"><img src="./icons/instagram-icon.svg" width="60"/></a> <a href="mailto:YOUR-EMAIL@gmail.com" target="_blank"><img src="./icons/gmail-icon.svg" width="60"/></a>
+<a href="https://github.com/Arish0limbu" target="_blank"><img src="./icons/github-icon.svg" width="60"/></a> <a href="https://www.linkedin.com/in/arish-limbu" target="_blank"><img src="./icons/linkedin-icon.svg" width="60"/></a> <a href="https://facebook.com/YOUR-FACEBOOK" target="_blank"><img src="./icons/facebook-icon.svg" width="60"/></a> <a href="https://instagram.com/YOUR-INSTAGRAM" target="_blank"><img src="./icons/instagram-icon.svg" width="60"/></a> <a href="mailto:YOUR-EMAIL@gmail.com" target="_blank"><img src="./icons/gmail-icon.svg" width="60"/></a>
 
 <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 <img src="assets/line.svg" alt="GitHub Profile" width="100%">
