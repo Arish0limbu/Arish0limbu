@@ -65,15 +65,6 @@
 <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 
+<img src="assets/banner.svg" alt="GitHub Profile" width="100%">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,13,20&height=3&width=100%"/>
-
-<div align="center">
-
-### 💬 "Talk is cheap. Show me the code." — Linus Torvalds
-
-Thanks for stopping by — feel free to explore my repositories and connect ⚡
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=150&section=footer"/>
-
-</div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F5FF&center=true&vCenter=true&width=1200&lines=✨+Thanks+for+stopping+by+—+feel+free+to+explore+my+repositories+and+connect!+⚡)](https://github.com/YOUR_USERNAME)

@@ -1,0 +1,229 @@
+<svg width="900" height="150" viewBox="0 0 900 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fadeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="15%" stop-color="#ffffff"/>
+      <stop offset="85%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <mask id="fadeMask" maskUnits="userSpaceOnUse" x="0" y="0" width="900" height="150">
+      <rect x="0" y="0" width="900" height="150" fill="url(#fadeGrad)"/>
+    </mask>
+
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39ff88" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#39ff88" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#39ff88" stop-opacity="0"/>
+    </linearGradient>
+    
+    <clipPath id="typeClip0" clipPathUnits="userSpaceOnUse">
+      <rect class="typeClipRect0" x="219.6" y="58" width="0" height="36"/>
+    </clipPath>
+    <clipPath id="typeClip1" clipPathUnits="userSpaceOnUse">
+      <rect class="typeClipRect1" x="248.4" y="58" width="0" height="36"/>
+    </clipPath>
+    <clipPath id="typeClip2" clipPathUnits="userSpaceOnUse">
+      <rect class="typeClipRect2" x="219.6" y="58" width="0" height="36"/>
+    </clipPath>
+    <clipPath id="typeClip3" clipPathUnits="userSpaceOnUse">
+      <rect class="typeClipRect3" x="320.4" y="58" width="0" height="36"/>
+    </clipPath>
+
+    <style>
+      .col {
+        animation-name: fall;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      @keyframes fall {
+        0%   { transform: translateY(-20px); }
+        100% { transform: translateY(190px); }
+      }
+      
+      .msg0 {
+        opacity: 0;
+        animation-name: msgFade0;
+        animation-duration: 32s;
+        animation-delay: 0.0s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        text-shadow: 0 0 6px #39ff88, 0 0 16px #39ff88;
+      }
+      @keyframes msgFade0 {
+        0%    { opacity: 0; }
+        1%    { opacity: 1; }
+        20.0%  { opacity: 1; }
+        23.75%  { opacity: 0; }
+        100%  { opacity: 0; }
+      }
+      .typeClipRect0 {
+        animation-name: typeReveal0;
+        animation-duration: 32s;
+        animation-delay: 0.0s;
+        animation-timing-function: steps(32, end);
+        animation-iteration-count: infinite;
+      }
+      @keyframes typeReveal0 {
+        0%    { width: 0px; }
+        8.75%  { width: 460.8px; }
+        20.0%  { width: 460.8px; }
+        100%  { width: 460.8px; }
+      }
+      .msg1 {
+        opacity: 0;
+        animation-name: msgFade1;
+        animation-duration: 32s;
+        animation-delay: -8.0s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        text-shadow: 0 0 6px #39ff88, 0 0 16px #39ff88;
+      }
+      @keyframes msgFade1 {
+        0%    { opacity: 0; }
+        1%    { opacity: 1; }
+        20.0%  { opacity: 1; }
+        23.75%  { opacity: 0; }
+        100%  { opacity: 0; }
+      }
+      .typeClipRect1 {
+        animation-name: typeReveal1;
+        animation-duration: 32s;
+        animation-delay: -8.0s;
+        animation-timing-function: steps(28, end);
+        animation-iteration-count: infinite;
+      }
+      @keyframes typeReveal1 {
+        0%    { width: 0px; }
+        8.75%  { width: 403.2px; }
+        20.0%  { width: 403.2px; }
+        100%  { width: 403.2px; }
+      }
+      .msg2 {
+        opacity: 0;
+        animation-name: msgFade2;
+        animation-duration: 32s;
+        animation-delay: -16.0s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        text-shadow: 0 0 6px #39ff88, 0 0 16px #39ff88;
+      }
+      @keyframes msgFade2 {
+        0%    { opacity: 0; }
+        1%    { opacity: 1; }
+        20.0%  { opacity: 1; }
+        23.75%  { opacity: 0; }
+        100%  { opacity: 0; }
+      }
+      .typeClipRect2 {
+        animation-name: typeReveal2;
+        animation-duration: 32s;
+        animation-delay: -16.0s;
+        animation-timing-function: steps(32, end);
+        animation-iteration-count: infinite;
+      }
+      @keyframes typeReveal2 {
+        0%    { width: 0px; }
+        8.75%  { width: 460.8px; }
+        20.0%  { width: 460.8px; }
+        100%  { width: 460.8px; }
+      }
+      .msg3 {
+        opacity: 0;
+        animation-name: msgFade3;
+        animation-duration: 32s;
+        animation-delay: -24.0s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        text-shadow: 0 0 6px #39ff88, 0 0 16px #39ff88;
+      }
+      @keyframes msgFade3 {
+        0%    { opacity: 0; }
+        1%    { opacity: 1; }
+        20.0%  { opacity: 1; }
+        23.75%  { opacity: 0; }
+        100%  { opacity: 0; }
+      }
+      .typeClipRect3 {
+        animation-name: typeReveal3;
+        animation-duration: 32s;
+        animation-delay: -24.0s;
+        animation-timing-function: steps(18, end);
+        animation-iteration-count: infinite;
+      }
+      @keyframes typeReveal3 {
+        0%    { width: 0px; }
+        8.75%  { width: 259.2px; }
+        20.0%  { width: 259.2px; }
+        100%  { width: 259.2px; }
+      }
+
+      .scanline {
+        animation: scan 4s linear infinite;
+      }
+      @keyframes scan {
+        0%   { transform: translateY(-4px); }
+        100% { transform: translateY(150px); }
+      }
+    </style>
+  </defs>
+
+  <!-- falling matrix columns, faded top/bottom, transparent background -->
+  <g mask="url(#fadeMask)">
+    <text class="col" style="animation-duration:3.47s;animation-delay:-5.09s" font-family="monospace" font-size="14" x="10" y="-20"><tspan x="10" dy="0" fill="#c6ffe0" opacity="1.00">オ</tspan><tspan x="10" dy="14" fill="#39ff88" opacity="0.86">9</tspan><tspan x="10" dy="14" fill="#39ff88" opacity="0.72">キ</tspan><tspan x="10" dy="14" fill="#39ff88" opacity="0.58">ネ</tspan><tspan x="10" dy="14" fill="#39ff88" opacity="0.44">C</tspan><tspan x="10" dy="14" fill="#39ff88" opacity="0.30">エ</tspan></text>
+    <text class="col" style="animation-duration:5.23s;animation-delay:-4.71s" font-family="monospace" font-size="14" x="30" y="-20"><tspan x="30" dy="0" fill="#c6ffe0" opacity="1.00">2</tspan><tspan x="30" dy="14" fill="#39ff88" opacity="0.86">1</tspan><tspan x="30" dy="14" fill="#39ff88" opacity="0.72">オ</tspan><tspan x="30" dy="14" fill="#39ff88" opacity="0.58">タ</tspan><tspan x="30" dy="14" fill="#39ff88" opacity="0.44">カ</tspan><tspan x="30" dy="14" fill="#39ff88" opacity="0.30">A</tspan></text>
+    <text class="col" style="animation-duration:3.77s;animation-delay:-1.04s" font-family="monospace" font-size="14" x="50" y="-20"><tspan x="50" dy="0" fill="#c6ffe0" opacity="1.00">ソ</tspan><tspan x="50" dy="14" fill="#39ff88" opacity="0.86">F</tspan><tspan x="50" dy="14" fill="#39ff88" opacity="0.72">F</tspan><tspan x="50" dy="14" fill="#39ff88" opacity="0.58">C</tspan><tspan x="50" dy="14" fill="#39ff88" opacity="0.44">エ</tspan><tspan x="50" dy="14" fill="#39ff88" opacity="0.30">B</tspan></text>
+    <text class="col" style="animation-duration:4.26s;animation-delay:-5.7s" font-family="monospace" font-size="14" x="70" y="-20"><tspan x="70" dy="0" fill="#c6ffe0" opacity="1.00">ウ</tspan><tspan x="70" dy="14" fill="#39ff88" opacity="0.86">A</tspan><tspan x="70" dy="14" fill="#39ff88" opacity="0.72">ケ</tspan><tspan x="70" dy="14" fill="#39ff88" opacity="0.58">テ</tspan><tspan x="70" dy="14" fill="#39ff88" opacity="0.44">1</tspan><tspan x="70" dy="14" fill="#39ff88" opacity="0.30">コ</tspan><tspan x="70" dy="14" fill="#39ff88" opacity="0.16">9</tspan></text>
+    <text class="col" style="animation-duration:2.85s;animation-delay:-4.15s" font-family="monospace" font-size="14" x="90" y="-20"><tspan x="90" dy="0" fill="#c6ffe0" opacity="1.00">キ</tspan><tspan x="90" dy="14" fill="#39ff88" opacity="0.86">C</tspan><tspan x="90" dy="14" fill="#39ff88" opacity="0.72">B</tspan><tspan x="90" dy="14" fill="#39ff88" opacity="0.58">F</tspan><tspan x="90" dy="14" fill="#39ff88" opacity="0.44">ス</tspan><tspan x="90" dy="14" fill="#39ff88" opacity="0.30">ネ</tspan><tspan x="90" dy="14" fill="#39ff88" opacity="0.16">キ</tspan></text>
+    <text class="col" style="animation-duration:4.14s;animation-delay:-5.62s" font-family="monospace" font-size="14" x="110" y="-20"><tspan x="110" dy="0" fill="#c6ffe0" opacity="1.00">E</tspan><tspan x="110" dy="14" fill="#39ff88" opacity="0.86">セ</tspan><tspan x="110" dy="14" fill="#39ff88" opacity="0.72">6</tspan><tspan x="110" dy="14" fill="#39ff88" opacity="0.58">%</tspan><tspan x="110" dy="14" fill="#39ff88" opacity="0.44">9</tspan><tspan x="110" dy="14" fill="#39ff88" opacity="0.30">2</tspan></text>
+    <text class="col" style="animation-duration:4.83s;animation-delay:-3.21s" font-family="monospace" font-size="14" x="130" y="-20"><tspan x="130" dy="0" fill="#c6ffe0" opacity="1.00">ネ</tspan><tspan x="130" dy="14" fill="#39ff88" opacity="0.86">ト</tspan><tspan x="130" dy="14" fill="#39ff88" opacity="0.72">タ</tspan><tspan x="130" dy="14" fill="#39ff88" opacity="0.58">シ</tspan><tspan x="130" dy="14" fill="#39ff88" opacity="0.44">&amp;</tspan><tspan x="130" dy="14" fill="#39ff88" opacity="0.30">タ</tspan><tspan x="130" dy="14" fill="#39ff88" opacity="0.16">カ</tspan><tspan x="130" dy="14" fill="#39ff88" opacity="0.08">B</tspan><tspan x="130" dy="14" fill="#39ff88" opacity="0.08">ト</tspan></text>
+    <text class="col" style="animation-duration:4.08s;animation-delay:-0.75s" font-family="monospace" font-size="14" x="150" y="-20"><tspan x="150" dy="0" fill="#c6ffe0" opacity="1.00">テ</tspan><tspan x="150" dy="14" fill="#39ff88" opacity="0.86">D</tspan><tspan x="150" dy="14" fill="#39ff88" opacity="0.72">オ</tspan><tspan x="150" dy="14" fill="#39ff88" opacity="0.58">ク</tspan><tspan x="150" dy="14" fill="#39ff88" opacity="0.44">7</tspan><tspan x="150" dy="14" fill="#39ff88" opacity="0.30">1</tspan><tspan x="150" dy="14" fill="#39ff88" opacity="0.16">サ</tspan><tspan x="150" dy="14" fill="#39ff88" opacity="0.08">ニ</tspan><tspan x="150" dy="14" fill="#39ff88" opacity="0.08">コ</tspan></text>
+    <text class="col" style="animation-duration:5.3s;animation-delay:-3.47s" font-family="monospace" font-size="14" x="170" y="-20"><tspan x="170" dy="0" fill="#c6ffe0" opacity="1.00">A</tspan><tspan x="170" dy="14" fill="#39ff88" opacity="0.86">B</tspan><tspan x="170" dy="14" fill="#39ff88" opacity="0.72">ナ</tspan><tspan x="170" dy="14" fill="#39ff88" opacity="0.58">ニ</tspan><tspan x="170" dy="14" fill="#39ff88" opacity="0.44">&amp;</tspan><tspan x="170" dy="14" fill="#39ff88" opacity="0.30">ヌ</tspan></text>
+    <text class="col" style="animation-duration:4.28s;animation-delay:-2.52s" font-family="monospace" font-size="14" x="190" y="-20"><tspan x="190" dy="0" fill="#c6ffe0" opacity="1.00">オ</tspan><tspan x="190" dy="14" fill="#39ff88" opacity="0.86">カ</tspan><tspan x="190" dy="14" fill="#39ff88" opacity="0.72">ツ</tspan><tspan x="190" dy="14" fill="#39ff88" opacity="0.58">5</tspan><tspan x="190" dy="14" fill="#39ff88" opacity="0.44">&amp;</tspan><tspan x="190" dy="14" fill="#39ff88" opacity="0.30">$</tspan><tspan x="190" dy="14" fill="#39ff88" opacity="0.16">オ</tspan><tspan x="190" dy="14" fill="#39ff88" opacity="0.08">エ</tspan><tspan x="190" dy="14" fill="#39ff88" opacity="0.08">&amp;</tspan></text>
+    <text class="col" style="animation-duration:3.43s;animation-delay:-2.53s" font-family="monospace" font-size="14" x="210" y="-20"><tspan x="210" dy="0" fill="#c6ffe0" opacity="1.00">テ</tspan><tspan x="210" dy="14" fill="#39ff88" opacity="0.86">ノ</tspan><tspan x="210" dy="14" fill="#39ff88" opacity="0.72">$</tspan><tspan x="210" dy="14" fill="#39ff88" opacity="0.58">ヌ</tspan><tspan x="210" dy="14" fill="#39ff88" opacity="0.44">イ</tspan><tspan x="210" dy="14" fill="#39ff88" opacity="0.30">4</tspan><tspan x="210" dy="14" fill="#39ff88" opacity="0.16">ヌ</tspan><tspan x="210" dy="14" fill="#39ff88" opacity="0.08">サ</tspan><tspan x="210" dy="14" fill="#39ff88" opacity="0.08">E</tspan></text>
+    <text class="col" style="animation-duration:2.85s;animation-delay:-5.65s" font-family="monospace" font-size="14" x="230" y="-20"><tspan x="230" dy="0" fill="#c6ffe0" opacity="1.00">ケ</tspan><tspan x="230" dy="14" fill="#39ff88" opacity="0.86">タ</tspan><tspan x="230" dy="14" fill="#39ff88" opacity="0.72">0</tspan><tspan x="230" dy="14" fill="#39ff88" opacity="0.58">0</tspan><tspan x="230" dy="14" fill="#39ff88" opacity="0.44">6</tspan><tspan x="230" dy="14" fill="#39ff88" opacity="0.30">カ</tspan><tspan x="230" dy="14" fill="#39ff88" opacity="0.16">サ</tspan><tspan x="230" dy="14" fill="#39ff88" opacity="0.08">3</tspan></text>
+    <text class="col" style="animation-duration:3.7s;animation-delay:-4.33s" font-family="monospace" font-size="14" x="250" y="-20"><tspan x="250" dy="0" fill="#c6ffe0" opacity="1.00">2</tspan><tspan x="250" dy="14" fill="#39ff88" opacity="0.86">A</tspan><tspan x="250" dy="14" fill="#39ff88" opacity="0.72">ツ</tspan><tspan x="250" dy="14" fill="#39ff88" opacity="0.58">1</tspan><tspan x="250" dy="14" fill="#39ff88" opacity="0.44">ヌ</tspan><tspan x="250" dy="14" fill="#39ff88" opacity="0.30">%</tspan><tspan x="250" dy="14" fill="#39ff88" opacity="0.16">ノ</tspan></text>
+    <text class="col" style="animation-duration:5.37s;animation-delay:-5.09s" font-family="monospace" font-size="14" x="270" y="-20"><tspan x="270" dy="0" fill="#c6ffe0" opacity="1.00">コ</tspan><tspan x="270" dy="14" fill="#39ff88" opacity="0.86">ソ</tspan><tspan x="270" dy="14" fill="#39ff88" opacity="0.72">$</tspan><tspan x="270" dy="14" fill="#39ff88" opacity="0.58">ソ</tspan><tspan x="270" dy="14" fill="#39ff88" opacity="0.44">ア</tspan><tspan x="270" dy="14" fill="#39ff88" opacity="0.30">6</tspan><tspan x="270" dy="14" fill="#39ff88" opacity="0.16">C</tspan></text>
+    <text class="col" style="animation-duration:3.05s;animation-delay:-4.31s" font-family="monospace" font-size="14" x="290" y="-20"><tspan x="290" dy="0" fill="#c6ffe0" opacity="1.00">1</tspan><tspan x="290" dy="14" fill="#39ff88" opacity="0.86">9</tspan><tspan x="290" dy="14" fill="#39ff88" opacity="0.72">ネ</tspan><tspan x="290" dy="14" fill="#39ff88" opacity="0.58">E</tspan><tspan x="290" dy="14" fill="#39ff88" opacity="0.44">B</tspan><tspan x="290" dy="14" fill="#39ff88" opacity="0.30">ナ</tspan><tspan x="290" dy="14" fill="#39ff88" opacity="0.16">ケ</tspan></text>
+    <text class="col" style="animation-duration:4.57s;animation-delay:-2.91s" font-family="monospace" font-size="14" x="310" y="-20"><tspan x="310" dy="0" fill="#c6ffe0" opacity="1.00">#</tspan><tspan x="310" dy="14" fill="#39ff88" opacity="0.86">%</tspan><tspan x="310" dy="14" fill="#39ff88" opacity="0.72">エ</tspan><tspan x="310" dy="14" fill="#39ff88" opacity="0.58">4</tspan><tspan x="310" dy="14" fill="#39ff88" opacity="0.44">%</tspan><tspan x="310" dy="14" fill="#39ff88" opacity="0.30">A</tspan><tspan x="310" dy="14" fill="#39ff88" opacity="0.16">0</tspan><tspan x="310" dy="14" fill="#39ff88" opacity="0.08">0</tspan><tspan x="310" dy="14" fill="#39ff88" opacity="0.08">0</tspan><tspan x="310" dy="14" fill="#39ff88" opacity="0.08">0</tspan></text>
+    <text class="col" style="animation-duration:2.81s;animation-delay:-2.19s" font-family="monospace" font-size="14" x="330" y="-20"><tspan x="330" dy="0" fill="#c6ffe0" opacity="1.00">ス</tspan><tspan x="330" dy="14" fill="#39ff88" opacity="0.86">オ</tspan><tspan x="330" dy="14" fill="#39ff88" opacity="0.72">セ</tspan><tspan x="330" dy="14" fill="#39ff88" opacity="0.58">3</tspan><tspan x="330" dy="14" fill="#39ff88" opacity="0.44">サ</tspan><tspan x="330" dy="14" fill="#39ff88" opacity="0.30">ク</tspan></text>
+    <text class="col" style="animation-duration:3.52s;animation-delay:-5.68s" font-family="monospace" font-size="14" x="350" y="-20"><tspan x="350" dy="0" fill="#c6ffe0" opacity="1.00">B</tspan><tspan x="350" dy="14" fill="#39ff88" opacity="0.86">コ</tspan><tspan x="350" dy="14" fill="#39ff88" opacity="0.72">9</tspan><tspan x="350" dy="14" fill="#39ff88" opacity="0.58">キ</tspan><tspan x="350" dy="14" fill="#39ff88" opacity="0.44">ネ</tspan><tspan x="350" dy="14" fill="#39ff88" opacity="0.30">E</tspan></text>
+    <text class="col" style="animation-duration:2.58s;animation-delay:-0.75s" font-family="monospace" font-size="14" x="370" y="-20"><tspan x="370" dy="0" fill="#c6ffe0" opacity="1.00">ノ</tspan><tspan x="370" dy="14" fill="#39ff88" opacity="0.86">コ</tspan><tspan x="370" dy="14" fill="#39ff88" opacity="0.72">F</tspan><tspan x="370" dy="14" fill="#39ff88" opacity="0.58">チ</tspan><tspan x="370" dy="14" fill="#39ff88" opacity="0.44">ヌ</tspan><tspan x="370" dy="14" fill="#39ff88" opacity="0.30">D</tspan><tspan x="370" dy="14" fill="#39ff88" opacity="0.16">ネ</tspan><tspan x="370" dy="14" fill="#39ff88" opacity="0.08">5</tspan><tspan x="370" dy="14" fill="#39ff88" opacity="0.08">ク</tspan><tspan x="370" dy="14" fill="#39ff88" opacity="0.08">ク</tspan></text>
+    <text class="col" style="animation-duration:5.05s;animation-delay:-0.04s" font-family="monospace" font-size="14" x="390" y="-20"><tspan x="390" dy="0" fill="#c6ffe0" opacity="1.00">5</tspan><tspan x="390" dy="14" fill="#39ff88" opacity="0.86">5</tspan><tspan x="390" dy="14" fill="#39ff88" opacity="0.72">ト</tspan><tspan x="390" dy="14" fill="#39ff88" opacity="0.58">カ</tspan><tspan x="390" dy="14" fill="#39ff88" opacity="0.44">コ</tspan><tspan x="390" dy="14" fill="#39ff88" opacity="0.30">キ</tspan><tspan x="390" dy="14" fill="#39ff88" opacity="0.16">ニ</tspan><tspan x="390" dy="14" fill="#39ff88" opacity="0.08">チ</tspan><tspan x="390" dy="14" fill="#39ff88" opacity="0.08">5</tspan></text>
+    <text class="col" style="animation-duration:4.99s;animation-delay:-5.03s" font-family="monospace" font-size="14" x="410" y="-20"><tspan x="410" dy="0" fill="#c6ffe0" opacity="1.00">セ</tspan><tspan x="410" dy="14" fill="#39ff88" opacity="0.86">8</tspan><tspan x="410" dy="14" fill="#39ff88" opacity="0.72">ネ</tspan><tspan x="410" dy="14" fill="#39ff88" opacity="0.58">コ</tspan><tspan x="410" dy="14" fill="#39ff88" opacity="0.44">&amp;</tspan><tspan x="410" dy="14" fill="#39ff88" opacity="0.30">9</tspan></text>
+    <text class="col" style="animation-duration:5.24s;animation-delay:-1.45s" font-family="monospace" font-size="14" x="430" y="-20"><tspan x="430" dy="0" fill="#c6ffe0" opacity="1.00">#</tspan><tspan x="430" dy="14" fill="#39ff88" opacity="0.86">カ</tspan><tspan x="430" dy="14" fill="#39ff88" opacity="0.72">&amp;</tspan><tspan x="430" dy="14" fill="#39ff88" opacity="0.58">チ</tspan><tspan x="430" dy="14" fill="#39ff88" opacity="0.44">8</tspan><tspan x="430" dy="14" fill="#39ff88" opacity="0.30">ネ</tspan><tspan x="430" dy="14" fill="#39ff88" opacity="0.16">サ</tspan><tspan x="430" dy="14" fill="#39ff88" opacity="0.08">ヌ</tspan></text>
+    <text class="col" style="animation-duration:4.82s;animation-delay:-2.8s" font-family="monospace" font-size="14" x="450" y="-20"><tspan x="450" dy="0" fill="#c6ffe0" opacity="1.00">ニ</tspan><tspan x="450" dy="14" fill="#39ff88" opacity="0.86">F</tspan><tspan x="450" dy="14" fill="#39ff88" opacity="0.72">ソ</tspan><tspan x="450" dy="14" fill="#39ff88" opacity="0.58">E</tspan><tspan x="450" dy="14" fill="#39ff88" opacity="0.44">ス</tspan><tspan x="450" dy="14" fill="#39ff88" opacity="0.30">タ</tspan><tspan x="450" dy="14" fill="#39ff88" opacity="0.16">0</tspan><tspan x="450" dy="14" fill="#39ff88" opacity="0.08">ソ</tspan><tspan x="450" dy="14" fill="#39ff88" opacity="0.08">ス</tspan><tspan x="450" dy="14" fill="#39ff88" opacity="0.08">8</tspan></text>
+    <text class="col" style="animation-duration:3.98s;animation-delay:-1.61s" font-family="monospace" font-size="14" x="470" y="-20"><tspan x="470" dy="0" fill="#c6ffe0" opacity="1.00">ツ</tspan><tspan x="470" dy="14" fill="#39ff88" opacity="0.86">5</tspan><tspan x="470" dy="14" fill="#39ff88" opacity="0.72">チ</tspan><tspan x="470" dy="14" fill="#39ff88" opacity="0.58">ス</tspan><tspan x="470" dy="14" fill="#39ff88" opacity="0.44">&amp;</tspan><tspan x="470" dy="14" fill="#39ff88" opacity="0.30">D</tspan></text>
+    <text class="col" style="animation-duration:5.37s;animation-delay:-3.32s" font-family="monospace" font-size="14" x="490" y="-20"><tspan x="490" dy="0" fill="#c6ffe0" opacity="1.00">ネ</tspan><tspan x="490" dy="14" fill="#39ff88" opacity="0.86">カ</tspan><tspan x="490" dy="14" fill="#39ff88" opacity="0.72">ソ</tspan><tspan x="490" dy="14" fill="#39ff88" opacity="0.58">キ</tspan><tspan x="490" dy="14" fill="#39ff88" opacity="0.44">ソ</tspan><tspan x="490" dy="14" fill="#39ff88" opacity="0.30">5</tspan><tspan x="490" dy="14" fill="#39ff88" opacity="0.16">ス</tspan><tspan x="490" dy="14" fill="#39ff88" opacity="0.08">ニ</tspan></text>
+    <text class="col" style="animation-duration:3.11s;animation-delay:-2.26s" font-family="monospace" font-size="14" x="510" y="-20"><tspan x="510" dy="0" fill="#c6ffe0" opacity="1.00">ア</tspan><tspan x="510" dy="14" fill="#39ff88" opacity="0.86">5</tspan><tspan x="510" dy="14" fill="#39ff88" opacity="0.72">#</tspan><tspan x="510" dy="14" fill="#39ff88" opacity="0.58">ヌ</tspan><tspan x="510" dy="14" fill="#39ff88" opacity="0.44">#</tspan><tspan x="510" dy="14" fill="#39ff88" opacity="0.30">カ</tspan><tspan x="510" dy="14" fill="#39ff88" opacity="0.16">$</tspan><tspan x="510" dy="14" fill="#39ff88" opacity="0.08">ク</tspan><tspan x="510" dy="14" fill="#39ff88" opacity="0.08">ノ</tspan><tspan x="510" dy="14" fill="#39ff88" opacity="0.08">ス</tspan></text>
+    <text class="col" style="animation-duration:3.93s;animation-delay:-4.93s" font-family="monospace" font-size="14" x="530" y="-20"><tspan x="530" dy="0" fill="#c6ffe0" opacity="1.00">カ</tspan><tspan x="530" dy="14" fill="#39ff88" opacity="0.86">0</tspan><tspan x="530" dy="14" fill="#39ff88" opacity="0.72">4</tspan><tspan x="530" dy="14" fill="#39ff88" opacity="0.58">0</tspan><tspan x="530" dy="14" fill="#39ff88" opacity="0.44">カ</tspan><tspan x="530" dy="14" fill="#39ff88" opacity="0.30">サ</tspan><tspan x="530" dy="14" fill="#39ff88" opacity="0.16">サ</tspan><tspan x="530" dy="14" fill="#39ff88" opacity="0.08">ケ</tspan></text>
+    <text class="col" style="animation-duration:2.58s;animation-delay:-2.46s" font-family="monospace" font-size="14" x="550" y="-20"><tspan x="550" dy="0" fill="#c6ffe0" opacity="1.00">#</tspan><tspan x="550" dy="14" fill="#39ff88" opacity="0.86">コ</tspan><tspan x="550" dy="14" fill="#39ff88" opacity="0.72">E</tspan><tspan x="550" dy="14" fill="#39ff88" opacity="0.58">D</tspan><tspan x="550" dy="14" fill="#39ff88" opacity="0.44">5</tspan><tspan x="550" dy="14" fill="#39ff88" opacity="0.30">$</tspan><tspan x="550" dy="14" fill="#39ff88" opacity="0.16">ヌ</tspan><tspan x="550" dy="14" fill="#39ff88" opacity="0.08">コ</tspan><tspan x="550" dy="14" fill="#39ff88" opacity="0.08">A</tspan></text>
+    <text class="col" style="animation-duration:4.14s;animation-delay:-5.87s" font-family="monospace" font-size="14" x="570" y="-20"><tspan x="570" dy="0" fill="#c6ffe0" opacity="1.00">8</tspan><tspan x="570" dy="14" fill="#39ff88" opacity="0.86">ケ</tspan><tspan x="570" dy="14" fill="#39ff88" opacity="0.72">2</tspan><tspan x="570" dy="14" fill="#39ff88" opacity="0.58">ス</tspan><tspan x="570" dy="14" fill="#39ff88" opacity="0.44">セ</tspan><tspan x="570" dy="14" fill="#39ff88" opacity="0.30">イ</tspan></text>
+    <text class="col" style="animation-duration:3.26s;animation-delay:-4.24s" font-family="monospace" font-size="14" x="590" y="-20"><tspan x="590" dy="0" fill="#c6ffe0" opacity="1.00">C</tspan><tspan x="590" dy="14" fill="#39ff88" opacity="0.86">ナ</tspan><tspan x="590" dy="14" fill="#39ff88" opacity="0.72">チ</tspan><tspan x="590" dy="14" fill="#39ff88" opacity="0.58">9</tspan><tspan x="590" dy="14" fill="#39ff88" opacity="0.44">1</tspan><tspan x="590" dy="14" fill="#39ff88" opacity="0.30">ケ</tspan><tspan x="590" dy="14" fill="#39ff88" opacity="0.16">エ</tspan></text>
+    <text class="col" style="animation-duration:5.23s;animation-delay:-3.88s" font-family="monospace" font-size="14" x="610" y="-20"><tspan x="610" dy="0" fill="#c6ffe0" opacity="1.00">$</tspan><tspan x="610" dy="14" fill="#39ff88" opacity="0.86">C</tspan><tspan x="610" dy="14" fill="#39ff88" opacity="0.72">8</tspan><tspan x="610" dy="14" fill="#39ff88" opacity="0.58">1</tspan><tspan x="610" dy="14" fill="#39ff88" opacity="0.44">7</tspan><tspan x="610" dy="14" fill="#39ff88" opacity="0.30">ケ</tspan><tspan x="610" dy="14" fill="#39ff88" opacity="0.16">9</tspan><tspan x="610" dy="14" fill="#39ff88" opacity="0.08">コ</tspan><tspan x="610" dy="14" fill="#39ff88" opacity="0.08">8</tspan></text>
+    <text class="col" style="animation-duration:4.03s;animation-delay:-0.76s" font-family="monospace" font-size="14" x="630" y="-20"><tspan x="630" dy="0" fill="#c6ffe0" opacity="1.00">D</tspan><tspan x="630" dy="14" fill="#39ff88" opacity="0.86">ア</tspan><tspan x="630" dy="14" fill="#39ff88" opacity="0.72">コ</tspan><tspan x="630" dy="14" fill="#39ff88" opacity="0.58">シ</tspan><tspan x="630" dy="14" fill="#39ff88" opacity="0.44">コ</tspan><tspan x="630" dy="14" fill="#39ff88" opacity="0.30">5</tspan><tspan x="630" dy="14" fill="#39ff88" opacity="0.16">E</tspan></text>
+    <text class="col" style="animation-duration:4.68s;animation-delay:-2.66s" font-family="monospace" font-size="14" x="650" y="-20"><tspan x="650" dy="0" fill="#c6ffe0" opacity="1.00">%</tspan><tspan x="650" dy="14" fill="#39ff88" opacity="0.86">8</tspan><tspan x="650" dy="14" fill="#39ff88" opacity="0.72">8</tspan><tspan x="650" dy="14" fill="#39ff88" opacity="0.58">A</tspan><tspan x="650" dy="14" fill="#39ff88" opacity="0.44">5</tspan><tspan x="650" dy="14" fill="#39ff88" opacity="0.30">キ</tspan><tspan x="650" dy="14" fill="#39ff88" opacity="0.16">A</tspan><tspan x="650" dy="14" fill="#39ff88" opacity="0.08">エ</tspan></text>
+    <text class="col" style="animation-duration:3.25s;animation-delay:-4.34s" font-family="monospace" font-size="14" x="670" y="-20"><tspan x="670" dy="0" fill="#c6ffe0" opacity="1.00">7</tspan><tspan x="670" dy="14" fill="#39ff88" opacity="0.86">3</tspan><tspan x="670" dy="14" fill="#39ff88" opacity="0.72">A</tspan><tspan x="670" dy="14" fill="#39ff88" opacity="0.58">イ</tspan><tspan x="670" dy="14" fill="#39ff88" opacity="0.44">オ</tspan><tspan x="670" dy="14" fill="#39ff88" opacity="0.30">3</tspan></text>
+    <text class="col" style="animation-duration:3.48s;animation-delay:-0.16s" font-family="monospace" font-size="14" x="690" y="-20"><tspan x="690" dy="0" fill="#c6ffe0" opacity="1.00">7</tspan><tspan x="690" dy="14" fill="#39ff88" opacity="0.86">ス</tspan><tspan x="690" dy="14" fill="#39ff88" opacity="0.72">&amp;</tspan><tspan x="690" dy="14" fill="#39ff88" opacity="0.58">ツ</tspan><tspan x="690" dy="14" fill="#39ff88" opacity="0.44">3</tspan><tspan x="690" dy="14" fill="#39ff88" opacity="0.30">7</tspan><tspan x="690" dy="14" fill="#39ff88" opacity="0.16">9</tspan><tspan x="690" dy="14" fill="#39ff88" opacity="0.08">5</tspan><tspan x="690" dy="14" fill="#39ff88" opacity="0.08">7</tspan><tspan x="690" dy="14" fill="#39ff88" opacity="0.08">タ</tspan></text>
+    <text class="col" style="animation-duration:4.6s;animation-delay:-0.74s" font-family="monospace" font-size="14" x="710" y="-20"><tspan x="710" dy="0" fill="#c6ffe0" opacity="1.00">A</tspan><tspan x="710" dy="14" fill="#39ff88" opacity="0.86">ス</tspan><tspan x="710" dy="14" fill="#39ff88" opacity="0.72">3</tspan><tspan x="710" dy="14" fill="#39ff88" opacity="0.58">ケ</tspan><tspan x="710" dy="14" fill="#39ff88" opacity="0.44">1</tspan><tspan x="710" dy="14" fill="#39ff88" opacity="0.30">ク</tspan><tspan x="710" dy="14" fill="#39ff88" opacity="0.16">0</tspan><tspan x="710" dy="14" fill="#39ff88" opacity="0.08">3</tspan></text>
+    <text class="col" style="animation-duration:3.45s;animation-delay:-1.97s" font-family="monospace" font-size="14" x="730" y="-20"><tspan x="730" dy="0" fill="#c6ffe0" opacity="1.00">オ</tspan><tspan x="730" dy="14" fill="#39ff88" opacity="0.86">セ</tspan><tspan x="730" dy="14" fill="#39ff88" opacity="0.72">$</tspan><tspan x="730" dy="14" fill="#39ff88" opacity="0.58">ト</tspan><tspan x="730" dy="14" fill="#39ff88" opacity="0.44">ク</tspan><tspan x="730" dy="14" fill="#39ff88" opacity="0.30">コ</tspan><tspan x="730" dy="14" fill="#39ff88" opacity="0.16">#</tspan><tspan x="730" dy="14" fill="#39ff88" opacity="0.08">$</tspan><tspan x="730" dy="14" fill="#39ff88" opacity="0.08">ネ</tspan></text>
+    <text class="col" style="animation-duration:2.93s;animation-delay:-0.7s" font-family="monospace" font-size="14" x="750" y="-20"><tspan x="750" dy="0" fill="#c6ffe0" opacity="1.00">ソ</tspan><tspan x="750" dy="14" fill="#39ff88" opacity="0.86">キ</tspan><tspan x="750" dy="14" fill="#39ff88" opacity="0.72">0</tspan><tspan x="750" dy="14" fill="#39ff88" opacity="0.58">6</tspan><tspan x="750" dy="14" fill="#39ff88" opacity="0.44">サ</tspan><tspan x="750" dy="14" fill="#39ff88" opacity="0.30">$</tspan><tspan x="750" dy="14" fill="#39ff88" opacity="0.16">ソ</tspan><tspan x="750" dy="14" fill="#39ff88" opacity="0.08">サ</tspan><tspan x="750" dy="14" fill="#39ff88" opacity="0.08">2</tspan></text>
+    <text class="col" style="animation-duration:5.48s;animation-delay:-3.58s" font-family="monospace" font-size="14" x="770" y="-20"><tspan x="770" dy="0" fill="#c6ffe0" opacity="1.00">ス</tspan><tspan x="770" dy="14" fill="#39ff88" opacity="0.86">ヌ</tspan><tspan x="770" dy="14" fill="#39ff88" opacity="0.72">ナ</tspan><tspan x="770" dy="14" fill="#39ff88" opacity="0.58">カ</tspan><tspan x="770" dy="14" fill="#39ff88" opacity="0.44">ネ</tspan><tspan x="770" dy="14" fill="#39ff88" opacity="0.30">イ</tspan><tspan x="770" dy="14" fill="#39ff88" opacity="0.16">ニ</tspan><tspan x="770" dy="14" fill="#39ff88" opacity="0.08">A</tspan><tspan x="770" dy="14" fill="#39ff88" opacity="0.08">4</tspan></text>
+    <text class="col" style="animation-duration:3.82s;animation-delay:-5.89s" font-family="monospace" font-size="14" x="790" y="-20"><tspan x="790" dy="0" fill="#c6ffe0" opacity="1.00">8</tspan><tspan x="790" dy="14" fill="#39ff88" opacity="0.86">E</tspan><tspan x="790" dy="14" fill="#39ff88" opacity="0.72">テ</tspan><tspan x="790" dy="14" fill="#39ff88" opacity="0.58">7</tspan><tspan x="790" dy="14" fill="#39ff88" opacity="0.44">オ</tspan><tspan x="790" dy="14" fill="#39ff88" opacity="0.30">ク</tspan><tspan x="790" dy="14" fill="#39ff88" opacity="0.16">ソ</tspan><tspan x="790" dy="14" fill="#39ff88" opacity="0.08">キ</tspan></text>
+    <text class="col" style="animation-duration:2.75s;animation-delay:-4.37s" font-family="monospace" font-size="14" x="810" y="-20"><tspan x="810" dy="0" fill="#c6ffe0" opacity="1.00">ツ</tspan><tspan x="810" dy="14" fill="#39ff88" opacity="0.86">ケ</tspan><tspan x="810" dy="14" fill="#39ff88" opacity="0.72">2</tspan><tspan x="810" dy="14" fill="#39ff88" opacity="0.58">%</tspan><tspan x="810" dy="14" fill="#39ff88" opacity="0.44">チ</tspan><tspan x="810" dy="14" fill="#39ff88" opacity="0.30">0</tspan><tspan x="810" dy="14" fill="#39ff88" opacity="0.16">コ</tspan></text>
+    <text class="col" style="animation-duration:4.11s;animation-delay:-2.91s" font-family="monospace" font-size="14" x="830" y="-20"><tspan x="830" dy="0" fill="#c6ffe0" opacity="1.00">&amp;</tspan><tspan x="830" dy="14" fill="#39ff88" opacity="0.86">ナ</tspan><tspan x="830" dy="14" fill="#39ff88" opacity="0.72">カ</tspan><tspan x="830" dy="14" fill="#39ff88" opacity="0.58">ツ</tspan><tspan x="830" dy="14" fill="#39ff88" opacity="0.44">エ</tspan><tspan x="830" dy="14" fill="#39ff88" opacity="0.30">&amp;</tspan><tspan x="830" dy="14" fill="#39ff88" opacity="0.16">シ</tspan><tspan x="830" dy="14" fill="#39ff88" opacity="0.08">2</tspan><tspan x="830" dy="14" fill="#39ff88" opacity="0.08">オ</tspan></text>
+    <text class="col" style="animation-duration:3.31s;animation-delay:-5.9s" font-family="monospace" font-size="14" x="850" y="-20"><tspan x="850" dy="0" fill="#c6ffe0" opacity="1.00">チ</tspan><tspan x="850" dy="14" fill="#39ff88" opacity="0.86">カ</tspan><tspan x="850" dy="14" fill="#39ff88" opacity="0.72">D</tspan><tspan x="850" dy="14" fill="#39ff88" opacity="0.58">ソ</tspan><tspan x="850" dy="14" fill="#39ff88" opacity="0.44">オ</tspan><tspan x="850" dy="14" fill="#39ff88" opacity="0.30">チ</tspan></text>
+    <text class="col" style="animation-duration:5.09s;animation-delay:-3.28s" font-family="monospace" font-size="14" x="870" y="-20"><tspan x="870" dy="0" fill="#c6ffe0" opacity="1.00">A</tspan><tspan x="870" dy="14" fill="#39ff88" opacity="0.86">1</tspan><tspan x="870" dy="14" fill="#39ff88" opacity="0.72">ツ</tspan><tspan x="870" dy="14" fill="#39ff88" opacity="0.58">E</tspan><tspan x="870" dy="14" fill="#39ff88" opacity="0.44">ケ</tspan><tspan x="870" dy="14" fill="#39ff88" opacity="0.30">ウ</tspan><tspan x="870" dy="14" fill="#39ff88" opacity="0.16">8</tspan><tspan x="870" dy="14" fill="#39ff88" opacity="0.08">タ</tspan></text>
+    <text class="col" style="animation-duration:5.31s;animation-delay:-0.18s" font-family="monospace" font-size="14" x="890" y="-20"><tspan x="890" dy="0" fill="#c6ffe0" opacity="1.00">エ</tspan><tspan x="890" dy="14" fill="#39ff88" opacity="0.86">シ</tspan><tspan x="890" dy="14" fill="#39ff88" opacity="0.72">ス</tspan><tspan x="890" dy="14" fill="#39ff88" opacity="0.58">ト</tspan><tspan x="890" dy="14" fill="#39ff88" opacity="0.44">F</tspan><tspan x="890" dy="14" fill="#39ff88" opacity="0.30">ト</tspan><tspan x="890" dy="14" fill="#39ff88" opacity="0.16">8</tspan><tspan x="890" dy="14" fill="#39ff88" opacity="0.08">セ</tspan></text>
+  </g>
+
+  <!-- scanline sweep -->
+  <rect class="scanline" x="0" y="0" width="900" height="3" fill="url(#scanGrad)"/>
+
+  <!-- terminal messages, typed letter by letter, then fade out, cycling -->
+  <g>
+    <text class="msg0" x="219.6" y="82" text-anchor="start" clip-path="url(#typeClip0)" font-family="Courier New, monospace" font-size="24" font-weight="bold" fill="#39ff88">$ thanks_for_visiting_my_profile</text>
+    <text class="msg1" x="248.4" y="82" text-anchor="start" clip-path="url(#typeClip1)" font-family="Courier New, monospace" font-size="24" font-weight="bold" fill="#39ff88">$ hope_you_like_what_you_see</text>
+    <text class="msg2" x="219.6" y="82" text-anchor="start" clip-path="url(#typeClip2)" font-family="Courier New, monospace" font-size="24" font-weight="bold" fill="#39ff88">$ feel_free_to_explore_my_repos_</text>
+    <text class="msg3" x="320.4" y="82" text-anchor="start" clip-path="url(#typeClip3)" font-family="Courier New, monospace" font-size="24" font-weight="bold" fill="#39ff88">$ have_a_great_day</text>
+  </g>
+</svg>
