@@ -43,9 +43,9 @@
 <text x="16.0" y="26" class="hud-label">PROFILE VIEWS</text>
 <text x="16.0" y="46" class="hud-value">155</text>
 <text x="236.0" y="26" class="hud-label">STARS</text>
-<text x="236.0" y="46" class="hud-value">18</text>
+<text x="236.0" y="46" class="hud-value">22</text>
 <text x="456.0" y="26" class="hud-label">FOLLOWERS</text>
-<text x="456.0" y="46" class="hud-value">12</text>
+<text x="456.0" y="46" class="hud-value">16</text>
 <text x="676" y="26" text-anchor="end" class="hud-label">5/10 UNLOCKED<animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" repeatCount="indefinite"/></text>
 <line x1="16" y1="56" x2="676" y2="56" stroke="#23202f" stroke-width="1"/>
 <rect x="16" y="60" width="660" height="3" rx="1.5" fill="#1a1726"/>
