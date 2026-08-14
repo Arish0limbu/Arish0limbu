@@ -52,7 +52,7 @@
 <rect x="0" y="0" width="738" height="194" rx="10" fill="url(#crtBezel)"/>
 <rect x="4" y="30" width="730" height="160" rx="6" class="screen"/>
 <rect x="4" y="4" width="730" height="24" rx="6" class="cab"/>
-<text x="16" y="21" class="hud">1UP 000267</text>
+<text x="16" y="21" class="hud">1UP 000287</text>
 <text x="722" y="21" text-anchor="end" class="hud-dim">Arish0limbu.gg</text>
 <g transform="translate(26,46)">
 <rect x="0" y="0" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
@@ -448,7 +448,7 @@
 <rect class="flash" x="676" y="26" width="10" height="10" rx="2" fill="#ffffff" style="animation-delay:-8.340s"/>
 <rect class="cell" x="676" y="39" width="10" height="10" rx="2" fill="#d9fff0" style="animation-delay:-8.340s"/>
 <rect class="flash" x="676" y="39" width="10" height="10" rx="2" fill="#ffffff" style="animation-delay:-8.340s"/>
-<rect class="cell" x="676" y="52" width="10" height="10" rx="2" fill="#2f9e6a" style="animation-delay:-8.340s"/>
+<rect class="cell" x="676" y="52" width="10" height="10" rx="2" fill="#d9fff0" style="animation-delay:-8.340s"/>
 <rect class="flash" x="676" y="52" width="10" height="10" rx="2" fill="#ffffff" style="animation-delay:-8.340s"/>
 <rect x="676" y="65" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
 <rect x="676" y="78" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
