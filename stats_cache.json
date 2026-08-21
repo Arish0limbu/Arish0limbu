@@ -12,10 +12,10 @@
     "commits": 5
   },
   "Arish0limbu/Arish0limbu": {
-    "last_sha": "e28ef1e86c0020adb7408551edf7547e248ae02f",
-    "additions": 8144,
-    "deletions": 4730,
-    "commits": 177
+    "last_sha": "e8658bb651f0cf931bb5c87b851f1ab22d45c110",
+    "additions": 8172,
+    "deletions": 4758,
+    "commits": 178
   },
   "Arish0limbu/test": {
     "last_sha": "9ff8490a90a6e92f0e3f782442291860dca01732",
@@ -24,9 +24,9 @@
     "commits": 7
   },
   "_totals": {
-    "additions": 28050,
-    "deletions": 14112,
-    "commits": 374
+    "additions": 28080,
+    "deletions": 14142,
+    "commits": 376
   },
   "Arish0limbu/DUO-CODING": {
     "last_sha": "646a6ec0288499e69c101a5580da4c4adc2c9301",
@@ -65,9 +65,9 @@
     "commits": 83
   },
   "Arish0limbu/My-First-Python": {
-    "last_sha": "8790a5b1bce69b59c2f12d903138d5904d41d297",
-    "additions": 238,
-    "deletions": 60,
-    "commits": 18
+    "last_sha": "46a15350d98a026bb4d3066f7a81da8cb35acaeb",
+    "additions": 240,
+    "deletions": 62,
+    "commits": 19
   }
 }
