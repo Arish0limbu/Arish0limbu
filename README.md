@@ -29,9 +29,8 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,13,20&height=3&width=100%"/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Arish0limbu&theme=dracula&hide_border=true&background=0d1117&stroke=00f0ff&ring=b967ff&fire=00f0ff&currStreakLabel=00f0ff"/>
+  <img src="https://streak-stats.demolab.com/?user=Arish0limbu&theme=dracula&hide_border=true&background=0d1117&stroke=00f0ff&ring=b967ff&fire=00f0ff&currStreakLabel=00f0ff" />
 </div>
-
   <img src="assets/line.svg" alt="GitHub Profile" width="100%">
     <img src="assets/line.svg" alt="GitHub Profile" width="100%">
 
