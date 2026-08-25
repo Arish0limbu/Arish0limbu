@@ -52,7 +52,7 @@
 <rect x="0" y="0" width="738" height="194" rx="10" fill="url(#crtBezel)"/>
 <rect x="4" y="30" width="730" height="160" rx="6" class="screen"/>
 <rect x="4" y="4" width="730" height="24" rx="6" class="cab"/>
-<text x="16" y="21" class="hud">1UP 000389</text>
+<text x="16" y="21" class="hud">1UP 000359</text>
 <text x="722" y="21" text-anchor="end" class="hud-dim">Arish0limbu.gg</text>
 <g transform="translate(26,46)">
 <rect x="0" y="0" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
@@ -357,13 +357,10 @@
 <rect x="546" y="65" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
 <rect x="546" y="78" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
 <rect x="559" y="0" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
-<rect class="cell" x="559" y="13" width="10" height="10" rx="2" fill="#2f9e6a" style="animation-delay:-6.896s"/>
-<rect class="flash" x="559" y="13" width="10" height="10" rx="2" fill="#ffffff" style="animation-delay:-6.896s"/>
+<rect x="559" y="13" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
 <rect x="559" y="26" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
-<rect class="cell" x="559" y="39" width="10" height="10" rx="2" fill="#2f9e6a" style="animation-delay:-6.896s"/>
-<rect class="flash" x="559" y="39" width="10" height="10" rx="2" fill="#ffffff" style="animation-delay:-6.896s"/>
-<rect class="cell" x="559" y="52" width="10" height="10" rx="2" fill="#1b4b3a" style="animation-delay:-6.896s"/>
-<rect class="flash" x="559" y="52" width="10" height="10" rx="2" fill="#ffffff" style="animation-delay:-6.896s"/>
+<rect x="559" y="39" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
+<rect x="559" y="52" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
 <rect x="559" y="65" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
 <rect x="559" y="78" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
 <rect x="572" y="0" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
@@ -387,8 +384,7 @@
 <rect x="598" y="52" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
 <rect x="598" y="65" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
 <rect x="598" y="78" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
-<rect class="cell" x="611" y="0" width="10" height="10" rx="2" fill="#4dffb0" style="animation-delay:-7.538s"/>
-<rect class="flash" x="611" y="0" width="10" height="10" rx="2" fill="#ffffff" style="animation-delay:-7.538s"/>
+<rect x="611" y="0" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
 <rect x="611" y="13" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
 <rect x="611" y="26" width="10" height="10" rx="2" fill="#10131c" opacity="0.5"/>
 <rect class="cell" x="611" y="39" width="10" height="10" rx="2" fill="#2f9e6a" style="animation-delay:-7.538s"/>
@@ -412,7 +408,7 @@
 <rect class="flash" x="624" y="65" width="10" height="10" rx="2" fill="#ffffff" style="animation-delay:-7.698s"/>
 <rect class="cell" x="624" y="78" width="10" height="10" rx="2" fill="#d9fff0" style="animation-delay:-7.698s"/>
 <rect class="flash" x="624" y="78" width="10" height="10" rx="2" fill="#ffffff" style="animation-delay:-7.698s"/>
-<rect class="cell" x="637" y="0" width="10" height="10" rx="2" fill="#d9fff0" style="animation-delay:-7.858s"/>
+<rect class="cell" x="637" y="0" width="10" height="10" rx="2" fill="#4dffb0" style="animation-delay:-7.858s"/>
 <rect class="flash" x="637" y="0" width="10" height="10" rx="2" fill="#ffffff" style="animation-delay:-7.858s"/>
 <rect class="cell" x="637" y="13" width="10" height="10" rx="2" fill="#4dffb0" style="animation-delay:-7.858s"/>
 <rect class="flash" x="637" y="13" width="10" height="10" rx="2" fill="#ffffff" style="animation-delay:-7.858s"/>
