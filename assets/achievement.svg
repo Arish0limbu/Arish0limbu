@@ -43,13 +43,13 @@
 <text x="16.0" y="26" class="hud-label">PROFILE VIEWS</text>
 <text x="16.0" y="46" class="hud-value">155</text>
 <text x="236.0" y="26" class="hud-label">STARS</text>
-<text x="236.0" y="46" class="hud-value">24</text>
+<text x="236.0" y="46" class="hud-value">25</text>
 <text x="456.0" y="26" class="hud-label">FOLLOWERS</text>
-<text x="456.0" y="46" class="hud-value">19</text>
-<text x="676" y="26" text-anchor="end" class="hud-label">5/10 UNLOCKED<animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" repeatCount="indefinite"/></text>
+<text x="456.0" y="46" class="hud-value">21</text>
+<text x="676" y="26" text-anchor="end" class="hud-label">6/10 UNLOCKED<animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" repeatCount="indefinite"/></text>
 <line x1="16" y1="56" x2="676" y2="56" stroke="#23202f" stroke-width="1"/>
 <rect x="16" y="60" width="660" height="3" rx="1.5" fill="#1a1726"/>
-<rect x="16" y="60" width="330.0" height="3" rx="1.5" fill="url(#barFill)"/>
+<rect x="16" y="60" width="396.0" height="3" rx="1.5" fill="url(#barFill)"/>
 <g transform="translate(16,72)">
 <rect x="0" y="0" width="124" height="108" rx="8" fill="url(#unlockGlow)"/>
 <rect x="0.5" y="0.5" width="123" height="107" rx="8" class="card-unlocked" stroke-width="1.2"><animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.6s" begin="0.45s" repeatCount="indefinite"/></rect>
@@ -81,15 +81,6 @@
 <text x="62.0" y="86" text-anchor="middle" class="sub-unlocked">Earn 5+ stars</text>
 </g>
 <g transform="translate(284,72)">
-<rect x="0.5" y="0.5" width="123" height="107" rx="8" class="card-locked" stroke-width="1.2"/>
-<g transform="translate(49.0,14) scale(1.083)">
-<path d="M12 2 L14.5 8.5 L21 9 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9 L9.5 8.5 Z" fill="#3a3550"/>
-</g>
-<text x="62.0" y="72" text-anchor="middle" class="label-locked">OPEN SOURCE</text>
-<text x="62.0" y="86" text-anchor="middle" class="sub-locked">Earn 25+ stars</text>
-<text x="62.0" y="98" text-anchor="middle" class="sub-locked">LOCKED</text>
-</g>
-<g transform="translate(418,72)">
 <rect x="0" y="0" width="124" height="108" rx="8" fill="url(#unlockGlow)"/>
 <rect x="0.5" y="0.5" width="123" height="107" rx="8" class="card-unlocked" stroke-width="1.2"><animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.6s" begin="1.05s" repeatCount="indefinite"/></rect>
 <g clip-path="url(#cardClip)">
@@ -97,10 +88,25 @@
 </g>
 <g transform="translate(49.0,14) scale(1.083)">
 <animateTransform attributeName="transform" type="scale" values="1;1.1;1" additive="sum" dur="2.6s" begin="1.10s" repeatCount="indefinite"/>
-<circle cx="8" cy="8" r="3.2" fill="#4df1ff"/><circle cx="16" cy="8" r="3.2" fill="#4df1ff"/><path d="M2 20c0-4 3-6.5 6-6.5s6 2.5 6 6.5" fill="#4df1ff"/><path d="M12 20c0-3.5 2.5-6 6-6s6 2.5 6 6" fill="#4df1ff" opacity="0.85"/>
+<path d="M12 2 L14.5 8.5 L21 9 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9 L9.5 8.5 Z" fill="#ffd24d"/>
 </g>
 <path d="M96 12l1.3 3 3 .3-2.3 2 .7 3-2.7-1.7-2.7 1.7 .7-3-2.3-2 3-.3z" fill="#9dff8f" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="1.50s" repeatCount="indefinite"/></path>
 <path d="M16 88l.9 2 2 .2-1.5 1.4.5 2-1.9-1.1-1.9 1.1.5-2-1.5-1.4 2-.2z" fill="#4df1ff" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="2.10s" repeatCount="indefinite"/></path>
+<text x="62.0" y="72" text-anchor="middle" class="label-unlocked">OPEN SOURCE</text>
+<text x="62.0" y="86" text-anchor="middle" class="sub-unlocked">Earn 25+ stars</text>
+</g>
+<g transform="translate(418,72)">
+<rect x="0" y="0" width="124" height="108" rx="8" fill="url(#unlockGlow)"/>
+<rect x="0.5" y="0.5" width="123" height="107" rx="8" class="card-unlocked" stroke-width="1.2"><animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.6s" begin="1.35s" repeatCount="indefinite"/></rect>
+<g clip-path="url(#cardClip)">
+<rect x="-40" y="-10" width="60" height="128" fill="url(#shimmerGrad)"><animateTransform attributeName="transform" type="translate" values="0,0; 200,0; 200,0" keyTimes="0;0.5;1" dur="3.2s" begin="2.10s" repeatCount="indefinite"/></rect>
+</g>
+<g transform="translate(49.0,14) scale(1.083)">
+<animateTransform attributeName="transform" type="scale" values="1;1.1;1" additive="sum" dur="2.6s" begin="1.40s" repeatCount="indefinite"/>
+<circle cx="8" cy="8" r="3.2" fill="#4df1ff"/><circle cx="16" cy="8" r="3.2" fill="#4df1ff"/><path d="M2 20c0-4 3-6.5 6-6.5s6 2.5 6 6.5" fill="#4df1ff"/><path d="M12 20c0-3.5 2.5-6 6-6s6 2.5 6 6" fill="#4df1ff" opacity="0.85"/>
+</g>
+<path d="M96 12l1.3 3 3 .3-2.3 2 .7 3-2.7-1.7-2.7 1.7 .7-3-2.3-2 3-.3z" fill="#9dff8f" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="1.80s" repeatCount="indefinite"/></path>
+<path d="M16 88l.9 2 2 .2-1.5 1.4.5 2-1.9-1.1-1.9 1.1.5-2-1.5-1.4 2-.2z" fill="#4df1ff" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="2.40s" repeatCount="indefinite"/></path>
 <text x="62.0" y="72" text-anchor="middle" class="label-unlocked">COMMUNITY</text>
 <text x="62.0" y="86" text-anchor="middle" class="sub-unlocked">10+ followers</text>
 </g>
@@ -115,16 +121,16 @@
 </g>
 <g transform="translate(16,190)">
 <rect x="0" y="0" width="124" height="108" rx="8" fill="url(#unlockGlow)"/>
-<rect x="0.5" y="0.5" width="123" height="107" rx="8" class="card-unlocked" stroke-width="1.2"><animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.6s" begin="1.35s" repeatCount="indefinite"/></rect>
+<rect x="0.5" y="0.5" width="123" height="107" rx="8" class="card-unlocked" stroke-width="1.2"><animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.6s" begin="1.65s" repeatCount="indefinite"/></rect>
 <g clip-path="url(#cardClip)">
-<rect x="-40" y="-10" width="60" height="128" fill="url(#shimmerGrad)"><animateTransform attributeName="transform" type="translate" values="0,0; 200,0; 200,0" keyTimes="0;0.5;1" dur="3.2s" begin="2.10s" repeatCount="indefinite"/></rect>
+<rect x="-40" y="-10" width="60" height="128" fill="url(#shimmerGrad)"><animateTransform attributeName="transform" type="translate" values="0,0; 200,0; 200,0" keyTimes="0;0.5;1" dur="3.2s" begin="2.60s" repeatCount="indefinite"/></rect>
 </g>
 <g transform="translate(49.0,14) scale(1.083)">
-<animateTransform attributeName="transform" type="scale" values="1;1.1;1" additive="sum" dur="2.6s" begin="1.40s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1;1.1;1" additive="sum" dur="2.6s" begin="1.70s" repeatCount="indefinite"/>
 <path d="M1 12s4.5-7 11-7 11 7 11 7-4.5 7-11 7-11-7-11-7Z" fill="none" stroke="#ff8a4d" stroke-width="2"/><circle cx="12" cy="12" r="3.4" fill="#ff8a4d"/>
 </g>
-<path d="M96 12l1.3 3 3 .3-2.3 2 .7 3-2.7-1.7-2.7 1.7 .7-3-2.3-2 3-.3z" fill="#9dff8f" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="1.80s" repeatCount="indefinite"/></path>
-<path d="M16 88l.9 2 2 .2-1.5 1.4.5 2-1.9-1.1-1.9 1.1.5-2-1.5-1.4 2-.2z" fill="#4df1ff" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="2.40s" repeatCount="indefinite"/></path>
+<path d="M96 12l1.3 3 3 .3-2.3 2 .7 3-2.7-1.7-2.7 1.7 .7-3-2.3-2 3-.3z" fill="#9dff8f" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="2.10s" repeatCount="indefinite"/></path>
+<path d="M16 88l.9 2 2 .2-1.5 1.4.5 2-1.9-1.1-1.9 1.1.5-2-1.5-1.4 2-.2z" fill="#4df1ff" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="2.70s" repeatCount="indefinite"/></path>
 <text x="62.0" y="72" text-anchor="middle" class="label-unlocked">ON THE MAP</text>
 <text x="62.0" y="86" text-anchor="middle" class="sub-unlocked">100+ profile views</text>
 </g>
@@ -148,16 +154,16 @@
 </g>
 <g transform="translate(418,190)">
 <rect x="0" y="0" width="124" height="108" rx="8" fill="url(#unlockGlow)"/>
-<rect x="0.5" y="0.5" width="123" height="107" rx="8" class="card-unlocked" stroke-width="1.2"><animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.6s" begin="1.65s" repeatCount="indefinite"/></rect>
+<rect x="0.5" y="0.5" width="123" height="107" rx="8" class="card-unlocked" stroke-width="1.2"><animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.6s" begin="1.95s" repeatCount="indefinite"/></rect>
 <g clip-path="url(#cardClip)">
-<rect x="-40" y="-10" width="60" height="128" fill="url(#shimmerGrad)"><animateTransform attributeName="transform" type="translate" values="0,0; 200,0; 200,0" keyTimes="0;0.5;1" dur="3.2s" begin="2.60s" repeatCount="indefinite"/></rect>
+<rect x="-40" y="-10" width="60" height="128" fill="url(#shimmerGrad)"><animateTransform attributeName="transform" type="translate" values="0,0; 200,0; 200,0" keyTimes="0;0.5;1" dur="3.2s" begin="3.10s" repeatCount="indefinite"/></rect>
 </g>
 <g transform="translate(49.0,14) scale(1.083)">
-<animateTransform attributeName="transform" type="scale" values="1;1.1;1" additive="sum" dur="2.6s" begin="1.70s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1;1.1;1" additive="sum" dur="2.6s" begin="2.00s" repeatCount="indefinite"/>
 <circle cx="6" cy="9" r="3.4" fill="#ffb84d"/><path d="M4.2 11.5l1.8 3 1.8-3" fill="#ffb84d"/><circle cx="12" cy="6" r="3.8" fill="#ffb84d"/><path d="M10 9.2l2 3.4 2-3.4" fill="#ffb84d"/><circle cx="18" cy="9" r="3.4" fill="#ffb84d"/><path d="M16.2 11.5l1.8 3 1.8-3" fill="#ffb84d"/>
 </g>
-<path d="M96 12l1.3 3 3 .3-2.3 2 .7 3-2.7-1.7-2.7 1.7 .7-3-2.3-2 3-.3z" fill="#9dff8f" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="2.10s" repeatCount="indefinite"/></path>
-<path d="M16 88l.9 2 2 .2-1.5 1.4.5 2-1.9-1.1-1.9 1.1.5-2-1.5-1.4 2-.2z" fill="#4df1ff" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="2.70s" repeatCount="indefinite"/></path>
+<path d="M96 12l1.3 3 3 .3-2.3 2 .7 3-2.7-1.7-2.7 1.7 .7-3-2.3-2 3-.3z" fill="#9dff8f" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="2.40s" repeatCount="indefinite"/></path>
+<path d="M16 88l.9 2 2 .2-1.5 1.4.5 2-1.9-1.1-1.9 1.1.5-2-1.5-1.4 2-.2z" fill="#4df1ff" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="3.00s" repeatCount="indefinite"/></path>
 <text x="62.0" y="72" text-anchor="middle" class="label-unlocked">HAT TRICK</text>
 <text x="62.0" y="86" text-anchor="middle" class="sub-unlocked">Unlock 3+ badges</text>
 </g>
