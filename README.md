@@ -41,7 +41,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=1800&pause=700&color=00FF41,00FFFF,FF00FF,FFD700,FF0000&center=false&vCenter=true&width=700&lines=%3E+SCANNING+PROFILE...;%3E+ANALYZING+CONTRIBUTIONS;%3E+GENERATING+ACTIVITY+GRAPH;%3E+WAVE+SIMULATION+ONLINE" />
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Arish0limbu&theme=react-dark&bg_color=0d1117&color=00f0ff&line=b967ff&point=ffffff&hide_border=true"/>
+<img src="assets/activity-graph.svg" alt="GitHub Profile" width="100%">
 </div>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=30&width=100%"/>
 
