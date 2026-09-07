@@ -12,10 +12,10 @@
     "commits": 5
   },
   "Arish0limbu/Arish0limbu": {
-    "last_sha": "f026c4f3319e2c1c0ffc44a4dca54edef15dcc10",
-    "additions": 9455,
-    "deletions": 5938,
-    "commits": 216
+    "last_sha": "acaff2d57606a9cbbfe6e9d39f1f3bfd86df9c4e",
+    "additions": 9478,
+    "deletions": 5960,
+    "commits": 217
   },
   "Arish0limbu/test": {
     "last_sha": "9ff8490a90a6e92f0e3f782442291860dca01732",
@@ -24,9 +24,9 @@
     "commits": 7
   },
   "_totals": {
-    "additions": 883490,
-    "deletions": 830503,
-    "commits": 462
+    "additions": 74156,
+    "deletions": 19929,
+    "commits": 453
   },
   "Arish0limbu/DUO-CODING": {
     "last_sha": "646a6ec0288499e69c101a5580da4c4adc2c9301",
@@ -117,5 +117,11 @@
     "additions": 6215,
     "deletions": 125,
     "commits": 27
+  },
+  "Arish0limbu/She-Wants-Flowers": {
+    "last_sha": "af2bcbb5fe4a6e518f650cd3968abf5d57d82158",
+    "additions": 3791,
+    "deletions": 2552,
+    "commits": 5
   }
 }
