@@ -12,10 +12,10 @@
     "commits": 5
   },
   "Arish0limbu/Arish0limbu": {
-    "last_sha": "e7d03573d334096326244734404a4494c0b9a822",
-    "additions": 10142,
-    "deletions": 6515,
-    "commits": 239
+    "last_sha": "0a0c4a1f3fb0c45fd1f232539c205b39006095b1",
+    "additions": 10171,
+    "deletions": 6543,
+    "commits": 240
   },
   "Arish0limbu/test": {
     "last_sha": "9ff8490a90a6e92f0e3f782442291860dca01732",
@@ -24,9 +24,9 @@
     "commits": 7
   },
   "_totals": {
-    "additions": 60895,
-    "deletions": 22146,
-    "commits": 482
+    "additions": 60969,
+    "deletions": 22278,
+    "commits": 485
   },
   "Arish0limbu/DUO-CODING": {
     "last_sha": "646a6ec0288499e69c101a5580da4c4adc2c9301",
@@ -137,9 +137,9 @@
     "commits": 9
   },
   "Arish0limbu/MY-CPP": {
-    "last_sha": "7b2649e316146eec5eb4dd008c8b8434fb254bc1",
-    "additions": 154,
-    "deletions": 0,
-    "commits": 2
+    "last_sha": "1145e1fd1ac177258db30872b530912cc10cb08b",
+    "additions": 199,
+    "deletions": 104,
+    "commits": 4
   }
 }
