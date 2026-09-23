@@ -13,7 +13,6 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -30,7 +29,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests lxml
 
-      - name: Configure git for cloning
+      - name: Configure git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -38,23 +37,26 @@ jobs:
       - name: Run GitHub Stats Script
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          # Optional: comma-separated list of extra commit-author emails
-          # (e.g. a work email) to include in the lines-of-code count.
           EXTRA_EMAILS: ${{ vars.EXTRA_EMAILS }}
         run: python python/status.py
 
-      - name: Run stats2.py (stats.svg only)
+      - name: Run stats2.py
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           EXTRA_EMAILS: ${{ vars.EXTRA_EMAILS }}
         run: python python/stats2.py
 
-      - name: Run contribution_shooter.py
+      - name: Run Commit Activity Graph
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: python python/activity_graph.py
+
+      - name: Run contribution shooter
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: python python/contribution_shooter.py
 
-      - name: Run achievement.py
+      - name: Run achievement
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: python python/achievement.py
@@ -62,5 +64,5 @@ jobs:
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update GitHub Stats"
-          file_pattern: "*.svg stats_cache.json stats2_cache.json"
+          commit_message: "Update GitHub profile stats"
+          file_pattern: "assets/*.svg *.svg stats_cache.json stats2_cache.json"
