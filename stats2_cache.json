@@ -12,10 +12,10 @@
     "commits": 5
   },
   "Arish0limbu/Arish0limbu": {
-    "last_sha": "a9333787589631588dd211cb04f945462ca05e20",
-    "additions": 12201,
-    "deletions": 7990,
-    "commits": 272
+    "last_sha": "f90586d55da707546d268fa21ea22108ffa2f7dc",
+    "additions": 12227,
+    "deletions": 8016,
+    "commits": 273
   },
   "Arish0limbu/test": {
     "last_sha": "9ff8490a90a6e92f0e3f782442291860dca01732",
@@ -24,9 +24,9 @@
     "commits": 7
   },
   "_totals": {
-    "additions": 68202,
-    "deletions": 28080,
-    "commits": 597
+    "additions": 68347,
+    "deletions": 28115,
+    "commits": 608
   },
   "Arish0limbu/DUO-CODING": {
     "last_sha": "646a6ec0288499e69c101a5580da4c4adc2c9301",
@@ -149,9 +149,9 @@
     "commits": 4
   },
   "Arish0limbu/Mouse-control-using-web-cam": {
-    "last_sha": "97d98d1b9a50b8114b75736f66e85f7d8446563c",
-    "additions": 3777,
-    "deletions": 3285,
-    "commits": 9
+    "last_sha": "79d3883f2bbaff13211f95f664ada4139cdd3a25",
+    "additions": 3896,
+    "deletions": 3294,
+    "commits": 19
   }
 }
