@@ -12,10 +12,10 @@
     "commits": 5
   },
   "Arish0limbu/Arish0limbu": {
-    "last_sha": "d2002485fd193da1acee205b65b3bb579a53acf2",
-    "additions": 12816,
-    "deletions": 8600,
-    "commits": 281
+    "last_sha": "0bded3d81343092fbee8b88fd5d2cfa511733570",
+    "additions": 12926,
+    "deletions": 8710,
+    "commits": 282
   },
   "Arish0limbu/test": {
     "last_sha": "9ff8490a90a6e92f0e3f782442291860dca01732",
@@ -24,9 +24,9 @@
     "commits": 7
   },
   "_totals": {
-    "additions": 68944,
-    "deletions": 28706,
-    "commits": 623
+    "additions": 69090,
+    "deletions": 28818,
+    "commits": 631
   },
   "Arish0limbu/DUO-CODING": {
     "last_sha": "646a6ec0288499e69c101a5580da4c4adc2c9301",
@@ -77,10 +77,10 @@
     "commits": 0
   },
   "Arish0limbu/Cyber-Sathi": {
-    "last_sha": "9b366631ebd4ee07a479d963694c1ff990454c7f",
-    "additions": 13712,
-    "deletions": 2411,
-    "commits": 28
+    "last_sha": "3a22bf3c59f54782b57e7b67d7526d7f91abea3e",
+    "additions": 13715,
+    "deletions": 2413,
+    "commits": 30
   },
   "Arish0limbu/Cyber_Sathi": {
     "last_sha": "2fb06d7971166d69ab4b71d80c73a8f6b633981b",
@@ -153,5 +153,11 @@
     "additions": 3896,
     "deletions": 3294,
     "commits": 19
+  },
+  "Arish0limbu/Contributions": {
+    "last_sha": "406573ceab8a798fcd833d87abbbdf5faf1276ff",
+    "additions": 33,
+    "deletions": 0,
+    "commits": 5
   }
 }
