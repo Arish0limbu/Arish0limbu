@@ -12,10 +12,10 @@
     "commits": 5
   },
   "Arish0limbu/Arish0limbu": {
-    "last_sha": "e046a3a1e9b91eeb9c73151ff582b252b5e91909",
-    "additions": 14418,
-    "deletions": 10168,
-    "commits": 301
+    "last_sha": "29fb0abd4ce9c78afb55140764edadfa9cd7f26f",
+    "additions": 14444,
+    "deletions": 10193,
+    "commits": 302
   },
   "Arish0limbu/test": {
     "last_sha": "9ff8490a90a6e92f0e3f782442291860dca01732",
@@ -24,9 +24,9 @@
     "commits": 7
   },
   "_totals": {
-    "additions": 73089,
-    "deletions": 31988,
-    "commits": 698
+    "additions": 73142,
+    "deletions": 32026,
+    "commits": 700
   },
   "Arish0limbu/DUO-CODING": {
     "last_sha": "646a6ec0288499e69c101a5580da4c4adc2c9301",
@@ -161,9 +161,9 @@
     "commits": 19
   },
   "Arish0limbu/Banking-Financial-Management-System-BAFMS-": {
-    "last_sha": "6beea66429adecd2d900a8d59d072ca20802e8a9",
-    "additions": 867,
-    "deletions": 135,
-    "commits": 32
+    "last_sha": "61dad02b79b081956d38fa6b61ba5710ed79084b",
+    "additions": 894,
+    "deletions": 148,
+    "commits": 33
   }
 }
