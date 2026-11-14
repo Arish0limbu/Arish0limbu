@@ -12,10 +12,10 @@
     "commits": 5
   },
   "Arish0limbu/Arish0limbu": {
-    "last_sha": "1a6cac0acbd23472e90f41f76e34148f4189da07",
-    "additions": 19338,
-    "deletions": 15034,
-    "commits": 360
+    "last_sha": "f14865c8730fbaa5fc26dee78df5a952671dfa52",
+    "additions": 19473,
+    "deletions": 15169,
+    "commits": 361
   },
   "Arish0limbu/test": {
     "last_sha": "9ff8490a90a6e92f0e3f782442291860dca01732",
@@ -24,9 +24,9 @@
     "commits": 7
   },
   "_totals": {
-    "additions": 84771,
-    "deletions": 39724,
-    "commits": 1006
+    "additions": 84907,
+    "deletions": 39859,
+    "commits": 1008
   },
   "Arish0limbu/DUO-CODING": {
     "last_sha": "646a6ec0288499e69c101a5580da4c4adc2c9301",
@@ -173,9 +173,9 @@
     "commits": 30
   },
   "Arish0limbu/Inside-githbub": {
-    "last_sha": "cb0fdc08fa54f37ca0491f091c95ef13c6fd34a0",
-    "additions": 1,
+    "last_sha": "10a06a69b0d2d6e7f1c2cad0ab439e53c2921e38",
+    "additions": 2,
     "deletions": 0,
-    "commits": 1
+    "commits": 2
   }
 }
