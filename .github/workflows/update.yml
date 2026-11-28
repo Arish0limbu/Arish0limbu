@@ -36,29 +36,29 @@ jobs:
 
       - name: Run GitHub Stats Script
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ github.token }}
           EXTRA_EMAILS: ${{ vars.EXTRA_EMAILS }}
         run: python python/status.py
 
       - name: Run stats2.py
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ github.token }}
           EXTRA_EMAILS: ${{ vars.EXTRA_EMAILS }}
         run: python python/stats2.py
 
       - name: Run Commit Activity Graph
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ github.token }}
         run: python python/activity_graph.py
 
       - name: Run contribution shooter
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ github.token }}
         run: python python/contribution_shooter.py
 
       - name: Run achievement
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ github.token }}
         run: python python/achievement.py
 
       - name: Commit Changes
